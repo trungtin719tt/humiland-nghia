@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.Staff>
+@using Outsourcing.Core.Common
+
+
+@if (Model.Any() && Model != null)
+{
+    foreach (var item in Model)
+    {
+
+    <li class="fk">
+        <div class="membr">
+            <img src="@item.Image" alt="">
+            <div class="membr-over">
+                <ul class="social_icons">
+                    <li class="facebook"><a href="@item.Phone" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li class="linkedin"><a href="@item.Yahoo" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+                <h6>@item.Name</h6>
+                <p>@slitString.TruncateAtWord(item.Description, 100)</p>
+            </div>
+        </div>
+    </li>
+    }
+      <!--======= TEAM MEMBER 1 =========-->
+
+                    @*<!--======= TEAM MEMBER 1 =========-->
+                    <li class="fk">
+                        <div class="membr">
+                            <img src="/Content/droom2/images/team-2.png" alt="">
+                            <div class="membr-over">
+                                <ul class="social_icons">
+                                    <li class="facebook"><a href="#."><i class="fa fa-facebook"></i></a></li>
+                                    <li class="twitter"><a href="#."><i class="fa fa-twitter"></i></a></li>
+                                    <li class="behance"><a href="#."><i class="fa fa-behance"></i></a></li>
+                                    <li class="googleplus"><a href="#."> <i class="fa fa-google"></i></a></li>
+                                    <li class="dribbble"><a href="#."> <i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                                <h6>Mohamed Said</h6>
+                                <p>Web Designer</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--======= TEAM MEMBER 3 =========-->
+                    <li class="fk">
+                        <div class="membr">
+                            <img src="/Content/droom2/images/team-3.png" alt="">
+                            <div class="membr-over">
+                                <ul class="social_icons">
+                                    <li class="facebook"><a href="#."><i class="fa fa-facebook"></i></a></li>
+                                    <li class="twitter"><a href="#."><i class="fa fa-twitter"></i></a></li>
+                                    <li class="behance"><a href="#."><i class="fa fa-behance"></i></a></li>
+                                    <li class="googleplus"><a href="#."> <i class="fa fa-google"></i></a></li>
+                                    <li class="dribbble"><a href="#."> <i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                                <h6>Mohamed Said</h6>
+                                <p>Web Designer</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--======= TEAM MEMBER 4 =========-->
+                    <li class="fk">
+                        <div class="membr">
+                            <img src="/Content/droom2/images/team-4.png" alt="">
+                            <div class="membr-over">
+                                <ul class="social_icons">
+                                    <li class="facebook"><a href="#."><i class="fa fa-facebook"></i></a></li>
+                                    <li class="twitter"><a href="#."><i class="fa fa-twitter"></i></a></li>
+                                    <li class="behance"><a href="#."><i class="fa fa-behance"></i></a></li>
+                                    <li class="googleplus"><a href="#."> <i class="fa fa-google"></i></a></li>
+                                    <li class="dribbble"><a href="#."> <i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                                <h6>Mohamed Said</h6>
+                                <p>Web Designer</p>
+                            </div>
+                        </div>
+                    </li>*@
+}

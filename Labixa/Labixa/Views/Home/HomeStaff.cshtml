@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.Staff>
+@if (Model.Any() && Model != null)
+{
+    foreach (var item in Model.Where(d => !d.Deleted))
+    {
+
+        <div class="col-md-4">
+            <div class="team-member top40 text-center">
+                <div class="team-img">
+                    <img src="@item.Image" alt="">
+                </div>
+                <div class="team-hover">
+                    <div class="desk">
+                        <h4 class="bottom10">Hân hạnh được tư vấn cho bạn</h4>
+                        <p>Cảm ơn vì đã tin tưởng vào công ty của chúng tôi</p>
+                    </div>
+                    <div class="s-link">
+                        <a href="#."><i class="fa fa-facebook"></i></a>
+                        <a href="#."><i class="fa fa-twitter"></i></a>
+                        <a href="#."><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-title top20 text-center">
+                <h3>@item.Name</h3>
+                <span>@item.Rename</span>
+            </div>
+        </div>
+        @*<div class="col-md-4">
+            <div class="team-member top40 text-center">
+                <div class="team-img">
+                    <img src="/Content/humiland/images/t-s-2.jpg" alt="">
+                </div>
+                <div class="team-hover">
+                    <div class="desk">
+                        <h4 class="bottom10">Hân hạnh được tư vấn cho bạn</h4>
+                        <p>Cảm ơn vì đã tin tưởng vào công ty của chúng tôi</p>
+                    </div>
+                    <div class="s-link">
+                        <a href="#."><i class="fa fa-facebook"></i></a>
+                        <a href="#."><i class="fa fa-twitter"></i></a>
+                        <a href="#."><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-title top20 text-center">
+                <h3>Franklin Harbet</h3>
+                <span>Civil Engineer</span>
+            </div>
+        </div>
+            <div class="col-md-4">
+                <div class="team-member top40 text-center">
+                    <div class="team-img">
+                        <img src="/Content/humiland/images/t-s-3.jpg" alt="">
+                    </div>
+                    <div class="team-hover">
+                        <div class="desk">
+                            <h4 class="bottom10">Hân hạnh được tư vấn cho bạn</h4>
+                            <p>Cảm ơn vì đã tin tưởng vào công ty của chúng tôi</p>
+                        </div>
+                        <div class="s-link">
+                            <a href="#."><i class="fa fa-facebook"></i></a>
+                            <a href="#."><i class="fa fa-twitter"></i></a>
+                            <a href="#."><i class="fa fa-google-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-title top20 text-center">
+                    <h3>Linda Anderson</h3>
+                    <span>Marketing Manager</span>
+                </div>
+            </div>*@
+    }
+}

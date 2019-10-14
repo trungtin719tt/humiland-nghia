@@ -1,0 +1,75 @@
+﻿@model Outsourcing.Data.Models.Blog
+@{
+            ViewBag.title = Model.Title;
+            ViewBag.keyword = "Iot arduino, board arduino, dạy lập trình arduino, hướng dẫn lập trình board, arduino";
+            ViewBag.description = Model.Description;
+            ViewBag.img = Model.BlogImage.Replace(" ", "%20");
+}
+<style>
+    #___plus_0,
+    .IN-widget {
+        position: relative;
+        top: 8px;
+        left: 10px;
+    }
+</style>
+<div class="dark-wrapper">
+    <div class="container inner2">
+        <div class="blog no-sidebar">
+            <div class="blog-content">
+                <div class="blog-posts classic-view">
+                    <div class="post">
+                        <div class="box text-center">
+                            <h1 class="post-title">@Model.Title</h1>
+                            <div class="meta"><span class="date">@Model.DateCreated.ToShortDateString()</span>
+                            </div>
+                            <figure class="main"><img src="@Model.BlogImage" alt=""></figure>
+                            <div class="post-content text-left">
+                                @*<blockquote>
+                                   @Model.Description
+                                </blockquote>*@
+                                <div class="divide10"></div>
+                                @Html.Raw(Model.Content.Replace("data-src=\"/", "src=\"http://ideasplus.vn/"))
+                            <!-- .post-footer -->
+                                @*<div class="row">
+                                    <div class="col-sm-12">
+                                        <h3 class="">Chia sẻ bài viết</h3>
+                                        <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="http://droom.vn/tin-tuc/@Model.Slug-@Model.Id">Chia sẻ</a></div>
+                                        <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60" data-href="http://droom.vn/tin-tuc/@Model.Slug-@Model.Id"></div>
+                                        <script type="IN/Share" data-url="http://droom.vn/tin-tuc/@Model.Slug-@Model.Id" data-counter="top">
+                                        </script>
+                                    </div>
+                                </div>*@
+                        </div>
+                        <!-- /.box -->
+
+                    </div>
+                    <!-- .post -->
+
+                   
+                </div>
+                <!-- /.classic-view -->
+
+            </div>
+            <!-- /.blog-content -->
+
+        </div>
+        <!-- /.blog -->
+    </div>
+    <!--/.container -->
+</div>
+</div>
+<div id="fb-root"></div>
+<script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.7&appId=984305064951775";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+</script>
+<script src="https://apis.google.com/js/platform.js" async defer>
+        { lang: 'vi' }
+</script>
+<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>

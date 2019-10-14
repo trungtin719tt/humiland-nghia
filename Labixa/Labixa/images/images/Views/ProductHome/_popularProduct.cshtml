@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.ProductAttributeMapping>
+@if (Model.Any() && Model != null)
+{
+    foreach (var item in Model.Where(p=>!p.Product.Deleted))
+    {
+
+        <div class="item">
+            <div class="property_item heading_space">
+                <div class="image">
+                    
+                    <a href="@item.Product.Slug"><img src="@item.Product.ProductPictureMappings.FirstOrDefault().Picture.Url" alt="listin" class="img-responsive"></a>
+                    <div class="feature"><span class="tag-2"> @if (item.Product.ProductAttributeMappings.Where(p => p.ProductAttributeId == 24).FirstOrDefault().Value.Equals("true"))
+                    {<span>Cần bán</span> }
+                    else
+                    {<span>Cần cho thuê</span>}</span></div>
+                
+                </div>
+            </div>
+        </div>
+    }
+
+}
+
+

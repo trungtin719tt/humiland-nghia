@@ -1,0 +1,32 @@
+F:\Droom\Labixa\Outsourcing.Data\bin\Release\Outsourcing.Data.dll.config
+F:\Droom\Labixa\Outsourcing.Data\bin\Release\Outsourcing.Data.dll
+F:\Droom\Labixa\Outsourcing.Data\bin\Release\Outsourcing.Data.pdb
+F:\Droom\Labixa\Outsourcing.Data\bin\Release\EntityFramework.dll
+F:\Droom\Labixa\Outsourcing.Data\bin\Release\EntityFramework.SqlServer.dll
+F:\Droom\Labixa\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.Core.dll
+F:\Droom\Labixa\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Droom\Labixa\Outsourcing.Data\bin\Release\PagedList.dll
+F:\Droom\Labixa\Outsourcing.Data\bin\Release\EntityFramework.xml
+F:\Droom\Labixa\Outsourcing.Data\bin\Release\EntityFramework.SqlServer.xml
+F:\Droom\Labixa\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.Core.xml
+F:\Droom\Labixa\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Droom\Labixa\Outsourcing.Data\bin\Release\PagedList.xml
+F:\Droom\Labixa\Outsourcing.Data\obj\Release\Outsourcing.Data.csprojResolveAssemblyReference.cache
+F:\Droom\Labixa\Outsourcing.Data\obj\Release\Outsourcing.Data.dll
+F:\Droom\Labixa\Outsourcing.Data\obj\Release\Outsourcing.Data.pdb
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\bin\Release\Outsourcing.Data.dll.config
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\bin\Release\Outsourcing.Data.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\bin\Release\Outsourcing.Data.pdb
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\bin\Release\EntityFramework.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\bin\Release\EntityFramework.SqlServer.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\bin\Release\PagedList.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\bin\Release\EntityFramework.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\bin\Release\EntityFramework.SqlServer.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\bin\Release\PagedList.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\obj\Release\Outsourcing.Data.csprojResolveAssemblyReference.cache
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\obj\Release\Outsourcing.Data.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Data\obj\Release\Outsourcing.Data.pdb

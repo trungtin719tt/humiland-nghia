@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.Blog>
+@if (Model.Any() && Model != null)
+{
+    foreach (var item in Model)
+    {
+
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="sim-lar-p">
+                <a href="/tin-tuc/@item.Slug"><img src="@item.BlogImage" alt="image"></a>
+                <div class="sim-lar-text">
+                    <a href="/tin-tuc/@item.Slug"><h3>@item.Title</h3></a>
+                    <p><span>By:</span> Admin <span>|</span> <span>Date:</span> @item.DateCreated</p> 
+                    <p>
+                       @item.Description
+                    </p>
+                    <a href="/tin-tuc/@item.Slug" class="link_arrow top20">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+    }
+
+}

@@ -1,0 +1,40 @@
+F:\Droom\Labixa\Resources\bin\Debug\Resources.dll
+F:\Droom\Labixa\Resources\bin\Debug\Resources.pdb
+F:\Droom\Labixa\Resources\bin\Debug\en\Resources.resources.dll
+F:\Droom\Labixa\Resources\bin\Debug\vi\Resources.resources.dll
+F:\Droom\Labixa\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+F:\Droom\Labixa\Resources\obj\Debug\Resources.Resources.resources
+F:\Droom\Labixa\Resources\obj\Debug\Resources.Resources.en.resources
+F:\Droom\Labixa\Resources\obj\Debug\Resources.Resources.vi.resources
+F:\Droom\Labixa\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+F:\Droom\Labixa\Resources\obj\Debug\en\Resources.resources.dll
+F:\Droom\Labixa\Resources\obj\Debug\vi\Resources.resources.dll
+F:\Droom\Labixa\Resources\obj\Debug\Resources.dll
+F:\Droom\Labixa\Resources\obj\Debug\Resources.pdb
+D:\Cong Ty\Droom\Labixa\Resources\bin\Debug\Resources.dll
+D:\Cong Ty\Droom\Labixa\Resources\bin\Debug\Resources.pdb
+D:\Cong Ty\Droom\Labixa\Resources\bin\Debug\en\Resources.resources.dll
+D:\Cong Ty\Droom\Labixa\Resources\bin\Debug\vi\Resources.resources.dll
+D:\Cong Ty\Droom\Labixa\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+D:\Cong Ty\Droom\Labixa\Resources\obj\Debug\Resources.Resources.resources
+D:\Cong Ty\Droom\Labixa\Resources\obj\Debug\Resources.Resources.en.resources
+D:\Cong Ty\Droom\Labixa\Resources\obj\Debug\Resources.Resources.vi.resources
+D:\Cong Ty\Droom\Labixa\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+D:\Cong Ty\Droom\Labixa\Resources\obj\Debug\en\Resources.resources.dll
+D:\Cong Ty\Droom\Labixa\Resources\obj\Debug\vi\Resources.resources.dll
+D:\Cong Ty\Droom\Labixa\Resources\obj\Debug\Resources.dll
+D:\Cong Ty\Droom\Labixa\Resources\obj\Debug\Resources.pdb
+D:\tin\works\humiland\Labixa\Resources\bin\Debug\Resources.dll
+D:\tin\works\humiland\Labixa\Resources\bin\Debug\Resources.pdb
+D:\tin\works\humiland\Labixa\Resources\bin\Debug\en\Resources.resources.dll
+D:\tin\works\humiland\Labixa\Resources\bin\Debug\vi\Resources.resources.dll
+D:\tin\works\humiland\Labixa\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+D:\tin\works\humiland\Labixa\Resources\obj\Debug\Resources.Resources.resources
+D:\tin\works\humiland\Labixa\Resources\obj\Debug\Resources.Resources.en.resources
+D:\tin\works\humiland\Labixa\Resources\obj\Debug\Resources.Resources.vi.resources
+D:\tin\works\humiland\Labixa\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+D:\tin\works\humiland\Labixa\Resources\obj\Debug\Resources.csproj.CoreCompileInputs.cache
+D:\tin\works\humiland\Labixa\Resources\obj\Debug\en\Resources.resources.dll
+D:\tin\works\humiland\Labixa\Resources\obj\Debug\vi\Resources.resources.dll
+D:\tin\works\humiland\Labixa\Resources\obj\Debug\Resources.dll
+D:\tin\works\humiland\Labixa\Resources\obj\Debug\Resources.pdb

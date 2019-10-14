@@ -1,0 +1,130 @@
+﻿@using PagedList.Mvc;
+@using Outsourcing.Core.Common;
+@using PagedList;
+@model IPagedList<Outsourcing.Data.Models.Product>
+
+@{
+    ViewBag.Title = "Sản phẩm của tôi";
+    Layout = "~/Views/Shared/_HumilandLayout.cshtml";
+}
+
+<!-- PAGE TITLE -->
+<div class="page-title page-main-section">
+    <div class="container padding-bottom-top-120 text-uppercase text-center">
+        <div class="main-title">
+            <h1>Bất động sản của tôi</h1>
+            @*<h5>10 Years Of Experience!</h5>*@
+            <div class="line_4"></div>
+            <div class="line_5"></div>
+            <div class="line_6"></div>
+            <a href="/">Trang Chủ</a><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+            <a href="/bat-dong-san">Dự Án</a>
+        </div>
+    </div>
+</div>
+<!--PAGE TITLE -->
+<!-- My - Property Start -->
+<section class="my_pro padding bg-color-gray">
+    <div class="container">
+        <div class="row">
+            @Html.Partial("_navigateProfile", 2)
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-uppercase">Bất Động Sản <span class="color_red"> Của Tôi</span></h2>
+                <div class="line_1"></div>
+                <div class="line_2"></div>
+                <div class="line_3"></div>
+            </div>
+        </div>
+        <div class="row">
+            @if (Model.Any() && Model != null)
+            {
+                foreach (var item in Model.Distinct())
+                {
+                    try
+
+                    { 
+                    <div class="property-list-list" data-target="Residential">
+                        <div class="col-xs-12 col-sm-4 col-md-4 property-list-list-image">
+                            <a href="/dang-bat-dong-san/@item.Id?place=mp">
+                                @try
+                                {
+                                <img src="@item.ProductPictureMappings.FirstOrDefault().Picture.Url" alt="There is no picture." class="img-responsive">
+                                }
+                                catch (Exception)
+                                {
+                                <img src="" alt="There is no picture." class="img-responsive">
+                                }
+                                
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-8 property-list-list-info">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <a href="/dang-bat-dong-san/@item.Id?place=mp">
+                                    <h3>@slitString.TruncateAtWord(item.Name, 20) @*@item.Name*@</h3>
+                                </a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                @if (item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 24).FirstOrDefault().Value.ToLower().Equals("true"))
+                                {
+                                    <label class="property-list-list-label">Cho Bán</label>
+                                }
+                                else
+                                {
+                                    <label class="property-list-list-label">Cho Thuê</label>
+                                }
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <p class="recent-properties-price">@slitString.TruncateAtWord(item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 18).FirstOrDefault().Value, 29) <span>@item.ProductCategoryMappings.FirstOrDefault().ProductCategory.Name</span></p>
+                                <span class="recent-properties-address">@item.OrginalPrice.ToString("#,##0")</span><span>
+                                    @if (item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 24).FirstOrDefault().Value.ToLower().Equals("false"))
+                                    {<span>/ tháng</span>}
+                                </span>
+
+                                <p>@slitString.TruncateAtWord(item.Description, 200)</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 property-list-list-facility">
+                                <ul>
+                                    <li class="left"><i class="fa fa-home" aria-hidden="true"></i> Nhà tắm</li>
+                                    <li class="right"><span>@item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 5).FirstOrDefault().Value</span> </li>
+                                </ul>
+                                <ul>
+                                    <li class="left"><i class="fa fa-bed" aria-hidden="true"></i> Giường</li>
+                                    <li class="right"><span>@item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 4).FirstOrDefault().Value</span> </li>
+                                </ul>
+                                <ul>
+                                    <li class="left"><i class="fa fa-home" aria-hidden="true"></i> Hướng Nhà</li>
+                                    <li class="right"><span>@item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 8).FirstOrDefault().Value</span> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        @*@if (User.IsInRole("SuperAdmin"))
+                        {
+                            <div class=" btn btn-danger" style="margin-left: 15px;"><a href="/Profile/DeleteProduct?Id=@item.Id&place=mp">Xóa Sản phẩm</a></div>
+                        }*@
+                        <div class=" btn btn-danger" style="margin-left: 15px;"><a href="/Profile/DeleteProduct?Id=@item.Id&place=mp">Xóa Sản phẩm</a></div>
+
+                    </div>
+                    }
+                    catch (Exception)
+                    {
+
+                        continue;
+                    }
+                }
+
+                <ul class="pager top40 padding_bottom">
+                    @Html.PagedListPager(Model, page => Url.Action("MyProperty", "Profile", new { page }))
+                </ul>
+            }
+
+        </div>
+    </div>
+</section><!-- My - Property end --><!--===== CONTACT =====--><section id="contact" class="bg-color-red">
+    <div class="container">
+        <div class="row">
+            @Html.Action("Info2", "Home")
+        </div>
+    </div>
+</section><!--===== #/CONTACT =====-->

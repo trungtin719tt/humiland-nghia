@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>
+@if (Model.Any() && Model != null)
+{
+    <li>
+        <a href="@Model.Where(p => p.Name.Equals("Facebook")).FirstOrDefault().Value">
+            <i class="@Model.Where(p => p.Name.Equals("Facebook")).FirstOrDefault().Tieu_De"></i>
+        </a>
+    </li>
+    
+    <li>
+        <a href="@Model.Where(p => p.Name.Equals("Youtube")).FirstOrDefault().Value">
+            <i class="@Model.Where(p => p.Name.Equals("Youtube")).FirstOrDefault().Tieu_De"></i>
+        </a>
+    </li>
+    
+    <li>
+        <a href="@Model.Where(p => p.Name.Equals("Pinterest")).FirstOrDefault().Value">
+            <i class="@Model.Where(p => p.Name.Equals("Pinterest")).FirstOrDefault().Tieu_De"></i>
+        </a>
+    </li>
+}

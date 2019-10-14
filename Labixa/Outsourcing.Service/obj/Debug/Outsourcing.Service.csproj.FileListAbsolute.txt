@@ -1,0 +1,220 @@
+F:\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Service.dll
+F:\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Service.pdb
+F:\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Core.dll
+F:\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Data.dll
+F:\Droom\Labixa\Outsourcing.Service\bin\System.Web.Mvc.dll
+F:\Droom\Labixa\Outsourcing.Service\bin\System.Web.WebPages.dll
+F:\Droom\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Droom\Labixa\Outsourcing.Service\bin\EntityFramework.dll
+F:\Droom\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Droom\Labixa\Outsourcing.Service\bin\PagedList.dll
+F:\Droom\Labixa\Outsourcing.Service\bin\System.Web.Razor.dll
+F:\Droom\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+F:\Droom\Labixa\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+F:\Droom\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+F:\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Core.pdb
+F:\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Data.pdb
+F:\Droom\Labixa\Outsourcing.Service\bin\System.Web.Mvc.xml
+F:\Droom\Labixa\Outsourcing.Service\bin\System.Web.WebPages.xml
+F:\Droom\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Droom\Labixa\Outsourcing.Service\bin\EntityFramework.xml
+F:\Droom\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Droom\Labixa\Outsourcing.Service\bin\PagedList.xml
+F:\Droom\Labixa\Outsourcing.Service\bin\System.Web.Razor.xml
+F:\Droom\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+F:\Droom\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+F:\Droom\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojResolveAssemblyReference.cache
+F:\Droom\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+F:\Droom\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.Cache
+F:\Droom\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+F:\Droom\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Service.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Service.pdb
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Core.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Data.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\System.Web.Mvc.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\System.Web.WebPages.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\EntityFramework.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\PagedList.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\System.Web.Razor.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Core.pdb
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Data.pdb
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\System.Web.Mvc.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\System.Web.WebPages.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\EntityFramework.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\PagedList.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\System.Web.Razor.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojResolveAssemblyReference.cache
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.Cache
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+D:\Cong Ty\Droom\Labixa\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Service.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Service.pdb
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Core.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Data.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\System.Web.Mvc.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\EntityFramework.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\PagedList.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\System.Web.Razor.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Core.pdb
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Data.pdb
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\System.Web.Mvc.xml
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.xml
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\EntityFramework.xml
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\PagedList.xml
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\System.Web.Razor.xml
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojResolveAssemblyReference.cache
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.Cache
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+D:\Cong Ty\humiland\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Service.dll
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Service.pdb
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Core.dll
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Data.dll
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\System.Web.Mvc.dll
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.dll
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\EntityFramework.dll
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\PagedList.dll
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\System.Web.Razor.dll
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Core.pdb
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Data.pdb
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\System.Web.Mvc.xml
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.xml
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\EntityFramework.xml
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\PagedList.xml
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\System.Web.Razor.xml
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+E:\Project\Humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+E:\Project\Humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojResolveAssemblyReference.cache
+E:\Project\Humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+E:\Project\Humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.Cache
+E:\Project\Humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+E:\Project\Humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Service.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Service.pdb
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Core.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Data.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.Mvc.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\EntityFramework.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\PagedList.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.Razor.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Core.pdb
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Data.pdb
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.Mvc.xml
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.xml
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\EntityFramework.xml
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\PagedList.xml
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.Razor.xml
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+D:\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+D:\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojResolveAssemblyReference.cache
+D:\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+D:\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.Cache
+D:\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CoreCompileInputs.cache
+D:\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+D:\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Service.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Service.pdb
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Core.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Data.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.Mvc.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\EntityFramework.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\PagedList.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.Razor.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Core.pdb
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Data.pdb
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.Mvc.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\EntityFramework.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\PagedList.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.Razor.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojResolveAssemblyReference.cache
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.cache
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CoreCompileInputs.cache
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CopyComplete
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Service.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Service.pdb
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Core.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Data.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.Mvc.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\EntityFramework.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\PagedList.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.Razor.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Core.pdb
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Outsourcing.Data.pdb
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.Mvc.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\EntityFramework.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\PagedList.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.Razor.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojResolveAssemblyReference.cache
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.Cache
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb

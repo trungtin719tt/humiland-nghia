@@ -1,0 +1,80 @@
+﻿@using PagedList.Mvc;
+@using Outsourcing.Core.Common;
+@using PagedList;
+@model IPagedList<Outsourcing.Data.Models.Blog>
+
+@{
+    ViewBag.title = "LILOEDU - Trung Tâm Đào Tạo IoT";
+    ViewBag.keyword = "Iot arduino, board arduino, dao tao, lap trinh, arduino";
+    ViewBag.description = "LILOEDU - Đăng ký học lập trình IoT trên board Arduino.";}
+}
+<div class="dark-wrapper blog-content">
+    <div class="container inner2">
+        <h2 style="text-align:center">Ưu Đãi</h2>
+        <div class="blog grid-view col3" style="width:100%">
+            <div class="blog-posts text-boxes">
+                <div class="isotope row" style="position: relative; height: 1465.36px;">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-sm-6 col-md-4 grid-view-post">
+                            <div class="post">
+                                <figure class="main"><a href="/tin-tuc/@item.Slug-@item.Id"><img src="@item.BlogImage" alt=""></a></figure>
+                                <div class="box text-center">
+                                    <h4 class="post-title"><a href="/tin-tuc/@item.Slug-@item.Id">@slitString.TruncateAtWord(item.Title, 20)</a></h4>
+                                    <div class="meta">
+                                        <span class="date">@item.DateCreated.ToShortTimeString()</span>
+                                    </div>
+                                    <p>@slitString.TruncateAtWord(item.Description, 79)</p>
+                                </div>
+                                <!-- /.box -->
+                            </div>
+                        </div>
+                    }
+                </div>
+                <!-- /.isotope -->
+            </div>
+            <!-- /.blog-posts -->
+
+            <div class="pagination">
+                @Html.PagedListPager(Model, page => Url.Action("IndexWork", "BlogHome", new { page }))
+            </div>
+            <!-- /.pagination -->
+
+        </div>
+        <!-- /.blog -->
+    </div>
+    <!--/.container -->
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#menu-homes').click(function () {
+            $.scrollTo($('#homes'), 1000);
+        });
+        $('#menu-about').click(function () {
+            $.scrollTo($('#about'), 1000);
+        });
+        $('#menu-courses').click(function () {
+            $.scrollTo($('#courses'), 1000);
+        });
+        $('#menu-news').click(function () {
+            $.scrollTo($('#news'), 1000);
+
+
+        });
+        $('#menu-work').click(function () {
+            $.scrollTo($('#work'), 1000);
+        });
+        $('#menu-contacts').click(function () {
+            $.scrollTo($('#contacts'), 1000);
+        });
+
+        var listspan4 = $(".span4");
+        var maxh = 0;
+        for(var i = 0; i < listspan4.length; i++){
+            maxh = listspan4[i].height();
+        }
+        //alert(maxh);
+    });
+
+</script>

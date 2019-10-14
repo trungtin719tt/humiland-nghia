@@ -1,0 +1,220 @@
+﻿@using Outsourcing.Core
+@model Labixa.Areas.Admin.Models.VendorAndProductModel
+
+@{
+    ViewBag.Title = "Chỉnh sửa Thông báo";
+}
+@section scripts{
+    <script src="~/Content/ckeditor/ckeditor.js"></script>
+    <script src="~/Content/ckeditor/config.js"></script>
+}
+
+<div class="page-content">
+    <div class="row">
+        <div class="col-xs-12">
+
+            <div class="alert alert-block alert-info">
+                Chi tiết thông báo
+            </div>
+            <table id="VendorTable" class="table table-bordered table-striped table-fixed-header">
+                <tbody role="alert" aria-live="polite" aria-relevant="all">
+
+                    <tr class="odd">
+                        <td class="hidden-480 ">Loại liên hệ</td>
+                        <td class="hidden-480 ">
+                            @if (Model.vendor.Type.Equals("0"))
+                            {<span>Liên hê công ty</span> }
+                            else
+                            {<span>Liên hê bất động sản</span> }
+                        </td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="hidden-480 ">Tên người gửi</td>
+                        <td class="hidden-480 ">@Model.vendor.Name</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="hidden-480 ">Email người gửi</td>
+                        <td class="hidden-480 ">@Model.vendor.Address</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="hidden-480 ">Sđt người gửi</td>
+                        <td class="hidden-480 ">@Model.vendor.Phone</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="hidden-480 ">Tới</td>
+                        <td class="hidden-480 ">@if (Model.vendor.Type.Equals("0"))
+            {<span>Công ty</span> }
+            else
+            {<span>@Model.vendor.Content</span> }</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="hidden-480 ">Email người môi giới</td>
+                        <td class="hidden-480 ">
+                            @if (Model.product != null)
+            {<text>@Model.product.ProductAttributeMappings.Where(p=>p.ProductAttributeId==22).FirstOrDefault().Value</text>}
+                        </td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="hidden-480 ">Sđt người môi giới</td>
+                        <td class="hidden-480 ">
+                            @if (Model.product != null)
+            {<text>@Model.product.ProductAttributeMappings.Where(p => p.ProductAttributeId == 21).FirstOrDefault().Value</text>}
+                        </td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="hidden-480 ">Bất động sản (Với liên hệ bất động sản)</td>
+                        <td class="hidden-480 ">@if (Model.product != null)
+            {<text><a href="/san-pham/@Model.product.Slug" target="_blank">@Model.product.Name</a> </text>}</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="hidden-480 ">Nội dung</td>
+                        <td class="hidden-480 ">@Model.vendor.Description</td>
+                    </tr>
+                    
+
+            </tbody>
+        </table>
+
+        @*Loại liên hệ: @if (Model.vendor.Type.Equals("0"))
+            {<span>Liên hê công ty</span> }
+            else
+            {<span>Liên hê bất động sản</span> }<br />
+        Tên người gửi: @Model.vendor.Name<br />
+        Email người gửi: @Model.vendor.Address<br />
+        Sđt người gửi: @Model.vendor.Phone<br />
+        Tới: @if (Model.vendor.Type.Equals("0"))
+            {<span>Công ty</span> }
+            else
+            {<span>@Model.vendor.Content</span> }<br />
+        Bất động sản (Với liên hệ bất động sản): @if (Model.product != null)
+            {<text><a href="/san-pham/@Model.product.Slug">@Model.product.Name</a> </text>} <br />
+        Nội dung:<br />
+        @Model.vendor.Description*@
+
+        @*@using (Html.BeginForm("Edit", "Vendor", null, FormMethod.Post, new { @class = "form-horizontal" }))
+                    {
+                        @Html.ValidationSummary(true)
+            @Html.HiddenFor(model => model.Id)
+            @Html.HiddenFor(model => model.IsDelete)
+                        <div class="tabbable">
+                            <ul class="nav nav-tabs" id="myTab">
+                                <li class="active">
+                                    <a data-toggle="tab" href="#tab1">
+                                        <i class="green ace-icon fa fa-home bigger-120"></i>
+                                        @Resources.Content
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a data-toggle="tab" href="#tab2">
+                                        <i class="green ace-icon fa fa-home bigger-120"></i>
+                                        Chỉnh sửa SEO
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div id="tab1" class="tab-pane fade active in">
+                                    <div class="form-group ">
+                                        <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId">Tên Khóa Học</label>
+                                        <div class="col-sm-9">
+                                            @Html.EditorFor(model => model.Name)
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId">Hình Ảnh</label>
+
+                                        <div class="col-sm-9">
+                                            @Html.EditorFor(model => model.Address, "GetImageFromElfinder")
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId">Mô Tả</label>
+
+                                        <div class="col-sm-9">
+                                            @Html.EditorFor(model => model.Description)
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId">Giá</label>
+
+                                        <div class="col-sm-9">
+                                            @Html.EditorFor(model => model.Percent)
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId"> Facebook</label>
+
+                                        <div class="col-sm-9">
+                                            @Html.EditorFor(model => model.Phone)
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId"> Linkedin</label>
+
+                                        <div class="col-sm-9">
+                                            @Html.EditorFor(model => model.Type)
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId"> Google+</label>
+
+                                        <div class="col-sm-9">
+                                            @Html.EditorFor(model => model.Note)
+                                        </div>
+                                    </div><div class="form-group ">
+                                        <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId"> Nội dung</label>
+
+                                        <div class="col-sm-9">
+                                            @Html.EditorFor(model => model.Content, "CkEditor")
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div id="tab2" class="tab-pane fade">
+
+                                        <div class="form-group ">
+                                            @Html.MyLabelFor(model => model.MetaKeywords)
+                                            <div class="col-sm-9">
+                                                @Html.EditorFor(model => model.MetaKeywords)
+                                                @Html.ValidationMessageFor(model => model.MetaKeywords)
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group ">
+                                            @Html.MyLabelFor(model => model.MetaTitle)
+                                            <div class="col-sm-9">
+                                                @Html.EditorFor(model => model.MetaTitle)
+                                                @Html.ValidationMessageFor(model => model.MetaTitle)
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group ">
+                                            @Html.MyLabelFor(model => model.MetaDescription)
+                                            <div class="col-sm-9">
+                                                @Html.EditorFor(model => model.MetaDescription)
+                                                @Html.ValidationMessageFor(model => model.MetaDescription)
+                                            </div>
+                                        </div>
+                                        <div class="form-group ">
+                                            @Html.MyLabelFor(model => model.Slug)
+                                            <div class="col-sm-9">
+                                                @Html.EditorFor(model => model.Slug)
+                                                @Html.ValidationMessageFor(model => model.Slug)
+                                            </div>
+                                        </div>
+                                    </div>
+
+                            </div>
+                        </div>
+
+
+
+
+                            //partial for group button
+
+                        @Html.Partial("_PartialButtonGroup", "/Admin/Vendor")
+                    }*@
+    </div>
+</div>
+</div>

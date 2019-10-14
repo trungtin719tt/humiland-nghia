@@ -1,0 +1,173 @@
+﻿
+@{
+    ViewBag.Title = "Thông tin cá nhân";
+    Layout = "~/Views/Shared/_HumilandLayout.cshtml";
+}
+@model Outsourcing.Data.Models.User
+
+<!--===== PAGE TITLE =====-->
+<div class="page-title page-main-section">
+    <div class="container padding-bottom-top-120 text-uppercase text-center">
+        <div class="main-title">
+            <h1>Thông tin cá nhân</h1>
+            @*<h5>10 Years Of Experience!</h5>*@
+            <div class="line_4"></div>
+            <div class="line_5"></div>
+            <div class="line_6"></div>
+            <a href="/">Trang Chủ</a><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="/thong-tin-ca-nhan">Hồ Sơ</a>
+        </div>
+    </div>
+</div>
+<!--===== #/PAGE TITLE =====-->
+<!--===== PROFILE =====-->
+<section id="agent-2-peperty" class="profile padding ">
+    <div class="container">
+
+        @Html.Partial("_navigateProfile",1)
+
+        
+    </div>
+
+    <div class="container-3">
+
+        <div class="row">
+            <h2 class="text-uppercase text-center">thông tin của Tôi</h2>
+            <br />
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                
+                <div class="agent-p-img">
+
+                    <img src="@Model.Image" class="img-responsive" alt="image" id="ImageProfile" />
+                    <input  id="txtUploadFile" type="file" accept="image/*" name="file" />
+                </div>
+                <a href="#changePassword">
+                    <button class="btn btn-primary" id="button-changePass" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Đổi Mật Khẩu
+                    </button> 
+                </a>
+                
+                <p class="text-success">@ViewBag.StatusMessage</p>
+            </div>
+
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <div class="agent-p-form">
+
+                    <div class="row">
+                        <form action="/Profile/UpdateProfile" method="post">
+                            <input type="hidden" id="inputImageProfile" name="Image" value="@Model.Image" />
+                            <div class="col-md-12 clearfix">
+                                <div class="single-query">
+                                    <label>Họ và Tên:</label>
+                                    <input type="text" placeholder="Họ Và Tên" value="@Model.FirstName" name="FirstName" class="keyword-input">
+                                </div>
+                            </div>
+                            <div class="col-md-12 clearfix">
+                                <div class="single-query">
+                                    <label>Điện Thoại:</label>
+                                    <input type="text" placeholder="0922007855" value="@Model.PhoneNumber" name="PhoneNumber" class="keyword-input">
+                                </div>
+                            </div>
+                            <div class="col-md-12 clearfix">
+                                <div class="single-query">
+                                    <label>Địa Chỉ:</label>
+                                    <input type="text" placeholder="307/41 Thạch Lam" value="@Model.Address" name="Address" class="keyword-input">
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 clearfix">
+                                <div class="single-query">
+                                    <label>Địa Chỉ Email:</label>
+                                    <input type="text" placeholder="longt@lilotech.com" value="@Model.Email" name="Email" class="keyword-input">
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 clearfix">
+                                <div class="single-query">
+                                    <label>Skype:</label>
+                                    <input type="text" placeholder="longtruong711" value="@Model.Skype" name="Skype" class="keyword-input">
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 clearfix">
+                                <div class="single-query">
+                                    <label>Thông tin Về Tôi:</label>
+                                    @*<textarea name="@Model.Description"  placeholder="Là một chuyên viên môi giới, Tôi luôn đặt ra mục tiêu nghề nghiệp của mình đó là: Uy tín, Nhanh gọn, Có trách nhiệm. Với lâu năm kinh nghiệm, Tôi luôn tư vấn cho quý khách hàng những thông tin chính xác đầy đủ nhất. Để những bất động sản sẽ được giao dịch thuận lợi, tư vấn quý khách theo cách phù hợp nhất để có được giao dịch thành công. Tất cả giao dịch được ghi trên giấy tờ, hợp đồng minh bạch đảm bảo quyền lợi công bằng cho hai bên.">@Model.Description</textarea>*@
+                               @Html.TextAreaFor(x => x.Description)
+                                </div>
+                            </div>
+                            <div class="col-md-12 clearfix">
+                                <button class="btn btn-primary" type="submit">
+                                    Lưu Thông Tin
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+           
+        </div>
+    </div>
+
+
+    <div class="container" id="changePassword">
+
+
+        <div class="row">
+            <div class="collapse" id="collapseExample">
+                <div class="well">
+                    <div class="agent-p-form social-network">
+
+                        <div class="col-md-1 hidden-xs"></div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <h3 class="text-uppercase bottom40">Thay Đổi <span class="color_red">Mật Khẩu</span></h3>
+                            <div class="row">
+                                <form action="/Account/manage" method="post">
+                                    @Html.AntiForgeryToken()
+                                    <div class="col-md-12">
+                                        <div class="single-query">
+                                            <label>Mật Khẩu Hiện Tại</label>
+                                            <input type="password" name="OldPassword" placeholder="" class="keyword-input">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="single-query">
+                                            <label>Mật Khảu Mới</label>
+                                            <input type="password" name="NewPassword" placeholder="" class="keyword-input">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="single-query">
+                                            <label>Xác Nhận Mật Khẩu</label>
+                                            <input type="password" name="ConfirmPassword" placeholder="" class="keyword-input">
+                                        </div>
+                                    </div>
+
+                                <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                                    <div class="query-submit-button">
+                                        <input type="submit" class="btn_fill" value="Cập Nhật">
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--===== #/PROFILE =====-->
+<!-- CONTACT -->
+<section id="contact" class="bg-color-red">
+    <div class="container">
+        <div class="row">
+            @Html.Action("Info2", "Home")
+        </div>
+    </div>
+</section>
+<!--CONTACT-->
+

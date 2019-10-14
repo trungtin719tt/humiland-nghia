@@ -1,0 +1,139 @@
+﻿@charset "utf-8";
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&subset=vietnamese';
+/* ============================== */
+/*
+ - Title: STM Responsive Retina One Page Creative HTML Bootstrap Portfolio
+ - Autor: Coralix Themes 
+ */
+/* ============================== */
+
+/* ---------------------------------------------------------------------- */
+/*	Import styles
+ /* ---------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------- */
+/*	General Style
+ /* ---------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/*	Services
+/* ---------------------------------------------------------------------- */
+.services-caps .services-title {
+	font-size: 1.5em;
+	font-weight: lighter;
+	color: #202427;
+	padding-bottom: 107px;
+	text-transform: uppercase;
+}
+
+.services-caps ul {
+	min-height: 172px;
+}
+
+.services-caps:hover .services-title {
+	padding-bottom: 20px;
+	transition: padding-bottom 0.5s;
+	-moz-transition: padding-bottom 0.5s;
+	-webkit-transition: padding-bottom 0.5s;
+}
+.services-caps:hover  {
+	color: white;
+}
+.services-caps:hover h4 {
+	color: white !important;
+}
+.services-caps:hover .services-title {
+	color: white;
+        font-size: 1.5em;
+}
+.services-caps:hover .services-icon {
+	top: 93%;
+	bottom: -45px;
+        margin: 7% 0px 0px -14%;
+     
+     
+}
+.services-container {
+	position: relative;
+}
+.services-caps {
+	background: #f1f1f1;
+	text-align: center;
+	color: #999;
+	padding: 30px 0 100px;
+	min-height: 250px;
+	position: relative;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.services-caps ul li {
+	    font-size: 1.6em;
+    /* line-height: 1.7em; */
+    text-align: center;
+}
+.services-caps h4{
+    color:black !important
+}
+.services-caps h4:hover{
+    color:white !important
+}
+.services-caps .services-icon {
+	background: no-repeat center center #DCDCDC;
+	width: 100px;
+	height: 30px;
+	    margin: 0% 0px 0px -55px;
+	left: 50%;
+	top: 150px;
+	bottom: auto;
+	position: absolute;
+	/*-o-border-radius: 50% 50% 50% 50%;
+	-moz-border-radius: 50% 50% 50% 50%;
+	-webkit-border-radius: 50% 50% 50% 50%;
+	border-radius: 50% 50% 50% 50%;*/
+	transition: top 0.5s;
+	-moz-transition: top 0.5s;
+	-webkit-transition: top 0.5s;
+        text-align: center;
+    line-height: 2;
+}
+
+.services-caps .services-website {
+	background-image: url(../img/icons/website-services-active.png);
+}
+.services-caps .services-mobile {
+	background-image: url(../img/icons/mobile-services-active.png);
+}
+.services-caps .services-interactive {
+	background-image: url(../img/icons/interactive-services-active.png);
+}
+.services-icon-bottom {
+	background-color: #dcdcdc;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 70px;
+	height: 70px;
+	visibility: visible;
+	position: absolute;
+	bottom: -35px;
+	left: 50%;
+	margin-left: -35px;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+.services-website-bottom {
+	background-image: url(../img/icons/website-services-active.png);
+}
+.services-mobile-bottom {
+	background-image: url(../img/icons/mobile-services-active.png);
+}
+.services-interactive-bottom {
+	background-image: url(../img/icons/interactive-services-active.png);
+}
+

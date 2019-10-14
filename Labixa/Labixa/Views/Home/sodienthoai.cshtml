@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>
+
+@if (Model.Any())
+{
+    foreach (var item in Model)
+    {
+        <a href="tel: @item.Value">@item.Value</a><br />
+    }
+}
+        
+

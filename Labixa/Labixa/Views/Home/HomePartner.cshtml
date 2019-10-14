@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>
+@if (Model.Where(m => m.IsPublic).Any() && Model != null)
+{
+    <section id="our-partner" class="padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-uppercase"><span class="color_red">Đối tác</span> của chúng tôi</h2>
+                    <div class="line_1"></div>
+                    <div class="line_2"></div>
+                    <div class="line_3"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="partner_slider_2" class="owl-carousel">
+                        @foreach (var item in Model.Where(d => d.IsPublic))
+                        {
+                        <div class="item"><img src="@item.Value" alt="Our Partner"></div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}

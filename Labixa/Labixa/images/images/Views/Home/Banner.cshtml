@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>
+
+@if (Model != null && Model.Any())
+{
+    <div class="tp-fullscreen">
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li data-transition="fade">
+                    <img src="@item.Value" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+                    <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">@Html.Raw(item.Description)</div>
+                </li>
+            }
+        </ul>
+        <div class="tp-bannertimer tp-bottom"></div>
+    </div>
+}

@@ -1,0 +1,131 @@
+﻿@using Outsourcing.Core.Common;
+@{
+    ViewBag.Title = "Bất động sản chờ duyệt";
+    Layout = "~/Views/Shared/_HumilandLayout.cshtml";
+}
+@using PagedList.Mvc;
+@using Outsourcing.Core.Common;
+@using PagedList;
+@model IPagedList<Outsourcing.Data.Models.ProductAttributeMapping>
+<!-- PAGE TITLE -->
+<div class="page-title page-main-section">
+    <div class="container padding-bottom-top-120 text-uppercase text-center">
+        <div class="main-title">
+            <h1>Bất Động sản chờ duyệt</h1>
+            <div class="line_4"></div>
+            <div class="line_5"></div>
+            <div class="line_6"></div>
+            <a href="/">Trang Chủ</a><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+            <a href="/bat-dong-san-cho-duyet">Dự Án</a>
+        </div>
+    </div>
+</div>
+<!--PAGE TITLE -->
+<!-- My - Property Start -->
+<section class="my_pro padding bg-color-gray">
+    <div class="container">
+        <div class="row">
+            @Html.Partial("_navigateProfile", 2)
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-uppercase">Bất Động Sản <span class="color_red"> Chờ Duyệt</span></h2>
+                <div class="line_1"></div>
+                <div class="line_2"></div>
+                <div class="line_3"></div>
+            </div>
+        </div>
+        <div class="row">
+            @if (Model.Any() && Model != null)
+            {
+                foreach (var item in Model.ToList())
+                {
+
+                    <div class="property-list-list" data-target="Residential">
+                        <div class="col-xs-12 col-sm-4 col-md-4 property-list-list-image">
+                            <img src="@item.Product.ProductPictureMappings.FirstOrDefault().Picture.Url" alt="recent-properties-1" class="img-responsive">
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-8 property-list-list-info">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <a href="/dang-bat-dong-san/@item.Product.Id?place=wp">
+                                    <h3>@slitString.TruncateAtWord(item.Product.Name, 20) </h3>
+                                </a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                @if (item.Product.ProductAttributeMappings.Where(p => p.ProductAttributeId == 24).FirstOrDefault().Value.ToLower().Equals("true"))
+                                {
+                                    <label class="property-list-list-label">Cho Bán</label>
+                                }
+                                else
+                                {
+                                    <label class="property-list-list-label">Cho Thuê</label>
+                                }
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <p class="recent-properties-price">@slitString.TruncateAtWord(item.Product.ProductAttributeMappings.Where(p => p.ProductAttributeId == 18).FirstOrDefault().Value, 29) <span>@item.Product.ProductCategoryMappings.FirstOrDefault().ProductCategory.Name</span></p>
+                                <span class="recent-properties-address">@item.Product.OrginalPrice.ToString("#,##0")</span><span>
+                                    @if (item.Product.ProductAttributeMappings.Where(p => p.ProductAttributeId == 24).FirstOrDefault().Value.ToLower().Equals("false"))
+                                    {<span>/ tháng</span>}
+                                </span>
+
+                                <p>@slitString.TruncateAtWord(item.Product.Description, 200)</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 property-list-list-facility">
+                                <ul>
+                                    <li class="left"><i class="fa fa-home" aria-hidden="true"></i> Nhà tắm</li>
+                                    <li class="right"><span>@item.Product.ProductAttributeMappings.Where(p => p.ProductAttributeId == 5).FirstOrDefault().Value</span> </li>
+                                </ul>
+                                <ul>
+                                    <li class="left"><i class="fa fa-bed" aria-hidden="true"></i> Giường</li>
+                                    <li class="right"><span>@item.Product.ProductAttributeMappings.Where(p => p.ProductAttributeId == 4).FirstOrDefault().Value</span> </li>
+                                </ul>
+                                <ul>
+                                    <li class="left"><i class="fa fa-home" aria-hidden="true"></i> Hướng Nhà</li>
+                                    <li class="right"><span>@item.Product.ProductAttributeMappings.Where(p => p.ProductAttributeId == 8).FirstOrDefault().Value</span> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class=" btn btn-danger" style="margin-left: 15px;"><a href="/Profile/DeleteProduct?Id=@item.Product.Id&place=wp">Xóa Sản phẩm</a></div>
+                    </div>
+                }
+            }
+
+        </div>
+    </div>
+</section><!-- My - Property end --><!--===== CONTACT =====--><section id="contact" class="bg-color-red">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                <div class="get-tuch">
+                    <i class="icon-telephone114"></i>
+                    <ul>
+                        <li><h4 class="p-font-17">Phone Number</h4></li>
+                        <li><p class="p-font-15">+1 900 234 567 - 68</p></li>
+                    </ul>
+                </div>
+                <div class="get-tech-line"><img src="/Content/humiland/images/get-tuch-line.png" alt="line" /></div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                <div class="get-tuch">
+                    <i class="icon-icons74"></i>
+                    <ul>
+                        <li><h4 class="p-font-17">Victoria Hall,</h4></li>
+                        <li><p class="p-font-15">Idea Homes, australia</p></li>
+                    </ul>
+                </div>
+                <div class="get-tech-line"><img src="/Content/humiland/images/get-tuch-line.png" alt="line" /></div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                <div class="get-tuch">
+                    <i class=" icon-icons142"></i>
+                    <ul>
+                        <li>
+                            <h4 class="p-font-17">Email Address</h4>
+                        </li>
+                        <li><a href="#."><p class="p-font-15">info@ideahomes.com</p></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--===== #/CONTACT =====-->

@@ -1,0 +1,288 @@
+﻿.menu-edit {
+    padding-left:12.5%;
+    padding-right:12.5%;
+}
+.navbar {
+    height:60px;
+    background-color:#000000;
+}
+.navbar .navbar-collapse {
+    line-height:60px;
+}
+.navbar .navbar-nav {
+    float: right;
+    margin-right: 12.5%;
+    pointer-events: none;
+}
+.navbar-brand span {
+      color: #d1d1d1;
+    font-size: 13px;
+    font-weight: bold;
+}
+.navbar-brand img {
+    height:50px;
+}
+.body-content {
+    /*margin-top:50px;*/
+}
+.pull-center{
+    text-align:center;
+    color:black;
+}
+.tittle p {
+    color:black;
+}
+.portfolio-filter .tittle {
+    padding-bottom:0;
+}
+.portfolio .tittle a {
+    color:#F15427;
+}
+.portfolio {
+    padding-top:60px;
+}
+
+.services-icon {
+    /*display:inline-flex;*/
+}
+
+.services h4 {
+    color:#000000;
+}
+
+.blog .note, .note h4, .note p {
+    background-color:#FF7200;
+    color:white;
+}
+.note {
+    padding:5px;
+    height:260px;
+    margin-top:30px;
+}
+
+.blog img {
+    height:auto;
+}
+.clear-padding {
+    padding:0;
+}
+
+.clear-margin {
+    margin:0;
+}
+.b-inner a {
+    font-size:15px;
+    font-weight:600;
+}
+.note p {
+    font-size:15px;
+    font-weight:600;
+    line-height:15px;
+}
+
+.signup {
+    margin-left:10%;
+    margin-right:10%;
+}
+.w100per {
+    width:100%;
+}
+.signup p {
+    line-height:4px;
+}
+
+.aboutus {
+    background-color:beige;
+}
+
+.footer-text {
+    width:90%;
+    border: 2px solid white;
+    background:#26262A;
+    color:white;
+}
+.sidebar .widget .post-list .meta, footer .widget .post-list .meta {
+    margin-left:0;
+}
+.yellow-logo {
+    color:#FFCD03;
+}
+.color-black {
+    color:black !important;
+}
+.fontweight600 {
+    font-weight:600;
+}
+ul.tag-list {
+    padding-top:40px;
+}
+
+.menu-sub-small {
+    margin-top:60px;
+}
+.navbar.fixed {
+    height:60px;
+    background:#000000;
+}
+.navbar .navbar-nav > li > a.active {
+        color: #70aed2 !important;
+}
+.sub-banner{
+    margin-top:50px;
+}
+
+.video-thumb .thumb-hover, .audio-thumb .thumb-hover {
+    background:#FF7217;
+}
+.thumb-hover p, .thumb-hover a, .thumb-hover h4 {
+    color:white;
+}
+.thumb-hover-content {
+    padding:10px;
+}
+/*.social-wrapper {
+    position:absolute;
+    margin:10px;
+    bottom:30px;
+
+}*/
+.social.naked li a i {
+    font-size:20px;
+}
+
+.signup input {
+    border: 0 solid;
+    border-bottom: 1px solid;
+}
+
+.signup h4{
+    /*margin-bottom:30px;*/
+}
+
+.portfolio-filter .tittle {
+    border:0 solid;
+}
+
+.color-c{
+    color:#FF7200;
+}
+.signup-root {
+    margin-bottom:40px;
+}
+.hocvienthanhcong {
+    height:400px;
+    width:100%;
+    background: url(/Content/droom/style/images/art/pf18.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.hocvienthanhcong h2, .hocvienthanhcong h4 {
+    color:white;
+}
+.thumb-1{
+    height:auto;
+    width:200px;
+    border-radius:50%;
+}
+.sn-top {
+    background:url(/images/sn-top.png) no-repeat;
+    background-size:100% 100%;
+    height:50px;
+}
+.sn-content {
+    background-image:url(/images/sn-content.png);
+    background-size:100% 100%;
+}
+.sn-bot {
+    background:url(/images/sn-bot.png) no-repeat;
+    background-size:100% 100%;
+    height:50px;
+}
+.sn {
+    position:absolute;
+    width:200px;
+}
+@media only screen and (min-device-width: 900px) {
+    .services ul {
+        /*margin-left:10%;
+        margin-right:10%;*/
+    }
+    #blog .blog {
+         margin-left:10%;
+        margin-right:10%;
+    }
+    
+}
+@media(max-width:1100px)  {
+    .navbar .navbar-nav {
+        margin-right:0;
+    }
+
+    .row-fluid:last-child [class*="span"] {
+        margin-bottom:100px;
+    }
+}
+@media(max-width:991px) {
+   .menu-edit {
+        padding:0;
+    }
+    .navbar .navbar-nav {
+        margin-right:0;
+    }
+    .navbar .navbar-nav {
+        background:#26262a;
+    }
+    ul.tag-list {
+        padding-top:0;
+    }
+    .sn-top {
+        height:51px;
+    }
+}
+
+
+
+@media(min-width:768px) {
+    #blog .blog img{
+	    margin-top:30px;
+    }
+    .row-fluid:last-child [class*="span"] {
+        margin-bottom:50px;
+    }
+    .inner {
+        padding-top:0;
+        padding-bottom:0;
+    }
+
+}
+.icon img{
+    border-radius:50%
+}
+.images {
+    background: url('../../../droom2/css/images/14726_1_miscellaneous_digital_art_red.jpg') no-repeat;
+    background-size: 100%;
+    color: white;
+}
+.images p, h4{
+    color:white !important
+}
+.inner {
+    /*margin-top:60px !important*/
+}
+#about h4{
+    color:black !important
+}
+.listfa .fa {
+        vertical-align: middle;
+    text-align: center;
+    margin-top: 31%;
+}
+
+.listfa .fa{
+    font-size: 42px;
+    vertical-align: middle;
+    text-align: center;
+}
+.services-icon {
+    color:white;
+    
+}

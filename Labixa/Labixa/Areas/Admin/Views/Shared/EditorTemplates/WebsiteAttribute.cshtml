@@ -1,0 +1,88 @@
+﻿@using Outsourcing.Core
+@model Outsourcing.Data.Models.WebsiteAttribute
+@{
+    var template = "";
+    if (Model.ControlType.ToLower() == "textarea")
+    {
+        template = "Ckeditor";
+    }
+    else if (Model.ControlType.ToLower() == "image")
+    {
+        template = "GetImageFromElfinder";
+    }
+    else if (Model.ControlType.ToLower() == "checkbox")
+    {
+        template = "CheckBox";
+    }
+}
+<div class="form-group ">
+    @Html.HiddenFor(model => model.Id)
+    @Html.HiddenFor(model => model.Name)
+    @*@Html.HiddenFor(model => model.Description)*@
+    @Html.HiddenFor(model => model.Type)
+ 
+    @Html.HiddenFor(model => model.Image)
+    @Html.HiddenFor(model => model.ControlType)
+    @Html.HiddenFor(model => model.Deleted)
+    <div class="col-md-12">
+
+        <div class="col-sm-3 control-label no-padding-right">
+            <label class="col-sm-12 control-label no-padding-right" for="">
+                @Model.Name
+            </label>
+            <label class="col-sm-12 " for="">
+                Kích hoạt:
+                @Html.EditorFor(model => model.IsPublic)
+            </label>
+
+        </div>
+
+        <div class="col-sm-9">
+            @Html.EditorFor(model => model.Value, template)
+            @Html.ValidationMessageFor(model => model.Value)
+        </div>
+
+    </div>
+    @if (Model.Type.ToLower().Equals("banner"))
+    {
+        <div class="col-md-12">
+            <div class="col-sm-3 control-label no-padding-right">
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    @Html.LabelFor(model => model.Tieu_De)
+                </label>
+            </div>
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.Tieu_De)
+                @Html.ValidationMessageFor(model => model.Tieu_De)
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="col-sm-3 control-label no-padding-right">
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    @Html.LabelFor(model => model.Content)
+                </label>
+            </div>
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.Content)
+                @Html.ValidationMessageFor(model => model.Tieu_De)
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="col-sm-3 control-label no-padding-right">
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    @Html.LabelFor(model => model.Url)
+                </label>
+            </div>
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.Url)
+                @Html.ValidationMessageFor(model => model.Url)
+            </div>
+        </div>
+    }
+    else
+    {
+        @Html.HiddenFor(model => model.Tieu_De)
+        @Html.HiddenFor(model => model.Content)
+    @Html.HiddenFor(model => model.Url)
+
+    }</div>

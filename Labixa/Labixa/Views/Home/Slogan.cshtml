@@ -1,0 +1,4 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>
+
+<h2 class="bottom40">@Model.Where(p => p.Name.Equals("Slogan")).FirstOrDefault().Value</h2>
+<a href="chung-toi" class="link_arrow white_border top10">Thông tin chi tiết</a>

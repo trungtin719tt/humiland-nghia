@@ -1,0 +1,645 @@
+﻿@model Labixa.Models.ProductViewModel
+@using Outsourcing.Core.Common
+@{
+    ViewBag.url = "www.humiland.com";
+    ViewBag.title = "Humiland Trang Giao Dịch Bất Động Sản Tại TP HCM";
+    ViewBag.description = "CHUYÊN MUA BÁN NHÀ PHỐ, ĐẤT NỀN TP HCM";
+    ViewBag.image = "/Content/humiland/images/logo2.png";
+}
+<section id="project" class="padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1 col-md-2"></div>
+            <div class="col-xs-12 col-sm-10 col-md-8 text-center">
+                <h2 class="text-uppercase">Khu vực <span class="color_red">nổi bật</span></h2>
+                <div class="line_1-1"></div>
+                <div class="line_2-2"></div>
+                <div class="line_3-3"></div>
+
+            </div>
+            <div class="col-sm-1 col-md-2"></div>
+        </div>
+        @*<div id="project-filter" class="cbp-l-filters-alignCenter">
+            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">Xem Tất Cả</div>
+            <div data-filter=".sale" class="cbp-filter-item">Bán </div>
+            <div data-filter=".rent" class="cbp-filter-item"> Thuê </div>
+            <div data-filter=".latest" class="cbp-filter-item">Mới Nhất </div>
+            </div>*@
+
+        <div id="projects" class="cbp">
+
+            @foreach (var item in Model.Category.Where(p => p.IsHome == true))
+            {
+                //ảnh đang dùng tạm
+                <div class="cbp-item sale col-xs-12 col-sm-6 col-md-4 shadowHover">
+                    <div class="image">
+                        <img src="@item.Description" class="width-230" alt="">@*~/Content/humiland/images/project2.jpg*@
+                        <div class="overlay">
+                            <a href="/cho-ban/@item.Slug" class="fancybox centered left-pos" data-fancybox-group="gallery">
+                                Nhà bán
+                            </a>
+                            <a href="/cho-thue/@item.Slug" class="fancybox centered right-pos" data-fancybox-group="gallery">
+                                Nhà thuê
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project_cap top10">
+                        <h3>@item.Name</h3>
+                    </div>
+
+                </div>
+
+            }
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--Slide-->
+@*<section class="rev_slider_wrapper">
+        <div id="rev_slider_3" class="rev_slider" data-version="5.0">
+            <ul>
+                @Html.Action("HomeBanner", "Home")
+
+
+            </ul>
+        </div>
+    </section>*@
+<!--  Home Icons Start  -->
+<!--  Home Icons End  -->
+<!-- WELCOME -->
+<section id="wellcome" class="padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1 col-md-2"></div>
+            <div class="col-xs-12 col-sm-10 col-md-8 text-center">
+                <h2 class="text-uppercase">Welcome to <span class="color_red">humiLand.com</span></h2>
+                <div class="line_1-1"></div>
+                <div class="line_2-2"></div>
+                <div class="line_3-3"></div>
+
+            </div>
+            <div class="col-sm-1 col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12 text-center">
+                <div class="welcome top40">
+                    <img src="/Content/humiland/images/wellcome_1.png" alt="image">
+                    <h4>Luôn có mặt 24/7</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12 text-center">
+                <div class="welcome top40">
+                    <img src="/Content/humiland/images/wellcome_2.png" alt="image">
+                    <h4>Uy tín và chuyên nghiệp</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12 text-center">
+                <div class="welcome top40">
+                    <img src="/Content/humiland/images/wellcome_3.png" alt="image">
+                    <h4>Đảm bảo sự hài lòng</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12 text-center">
+                <div class="welcome top40">
+                    <img src="/Content/humiland/images/wellcome_4.png" alt="image">
+                    <h4>Các hỗ trợ tiện ích</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- #/WELCOME -->
+<!-- ESTIMATE -->
+<section id="estimate" class="padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="estimate_image">
+                    <img src="/Content/humiland/images/estimate.png" alt="image" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="estimate_form">
+                    <h2 class="text-uppercase">Tìm kiếm<span class="color_red"> Thông tin</span></h2>
+                    <div class="line_1"></div>
+                    <div class="line_2"></div>
+                    <div class="line_3"></div>
+
+                    <div class="property-query-area top40">
+                        <form class="findus" action="/tim-kiem" method="get">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="single-query">
+                                        <input class="keyword-input" placeholder="Từ khóa " type="text" name="keyword" value="">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="single-query">
+                                        <div class="intro">
+                                            <select name="place">
+                                                <option>Địa điểm</option>
+                                                @foreach (var item in Model.Category)
+                                                {
+                                                    <option value="@item.Name">@item.Name</option>
+                                                }
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="single-query">
+                                        <div class="intro">
+                                            <select name="type">
+                                                <option>Loại nhà đất</option>
+                                                <option value="true">Cho bán</option>
+                                                <option value="false">Cho thuê</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="single-query">
+                                        <div class="intro">
+                                            <select name="direction">
+                                                <option>Hướng nhà</option>
+                                                <option value="Đông">Đông</option>
+                                                <option value="Tây">Tây</option>
+                                                <option value="Nam">Nam</option>
+                                                <option value="Bắc">Bắc</option>
+                                                <option value="Đông Bắc">Đông Bắc</option>
+                                                <option value="Tây Bắc">Tây Bắc</option>
+                                                <option value="Tây Nam">Tây Nam</option>
+                                                <option value="Đông Nam">Đông Nam</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row search-2">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="single-query">
+                                                <input class="keyword-input" placeholder="Diện tích nhỏ nhất" type="text" name="minArea" onkeypress='validate(event)'>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="single-query">
+                                                <input class="keyword-input" placeholder="Diện tích lớn nhất" type="text" name="maxArea" onkeypress='validate(event)'>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="query-submit-button">
+                                        <button type="submit" class="btn_fill">Tìm kiếm</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- #/ESTIMATE -->
+<!-- RECENT PROPERTY -->
+<section id="agent-p-2" class="property-details bg_light padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 bottom40">
+                <h2 class="text-uppercase">Nhà đất <span class="color_red">Mới nhất</span></h2>
+                <div class="line_1"></div>
+                <div class="line_2"></div>
+                <div class="line_3"></div>
+
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div id="property-2-slider" class="owl-carousel">
+                    @foreach (var item in Model.NowProduct)
+                    {
+                        try
+                        {
+                            <div class="item">
+                                <div class="property_item property_item_old bottom40">
+                                    <div class="image image-old">
+                                        @try
+                                        {
+                                            <img src="@item.ProductPictureMappings.FirstOrDefault().Picture.Url" alt="there is no image." class="img-responsive img-old">
+                                        }
+                                        catch (Exception)
+                                        {
+
+                                            <img src="" alt="there is no image." class="img-responsive img-old">
+                                        }
+                                        
+                                        <div class="property_meta">
+                                            <span>
+                                                <i class="fa fa-object-group"></i>
+                                                @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 3).FirstOrDefault().Value @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 3).FirstOrDefault().ProductAttribute.Name
+                                            </span>
+                                            <span>
+                                                <i class="fa fa-bed"></i>
+                                                @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 4).FirstOrDefault().Value Phòng ngủ
+                                            </span>
+                                            <span>
+                                                <i class="fa fa-bath"></i>
+                                                @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 5).FirstOrDefault().Value Phòng tắm
+                                            </span>
+                                            <span>
+                                                <i class="fa fa-car"></i>
+                                                @{
+                                                    if (item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 7).FirstOrDefault().Value.Equals(true))
+                                                    {
+                                                        <span>
+                                                            Có
+                                                        </span>
+                                                    }
+                                                    else
+                                                    {
+                                                        <span>
+                                                            Không
+                                                        </span>
+                                                    }
+                                                }Nhà xe
+                                            </span>
+
+                                        </div>
+                                        <div class="price">
+                                            <span class="tag">
+                                                @if (item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 24).FirstOrDefault().Value.Equals("true"))
+                                                {
+                                                    <span>
+                                                        Cần bán
+                                                    </span>
+                                                }
+                                                else
+                                                {
+                                                    <span>
+                                                        Cần cho thuê
+                                                    </span>
+                                                }
+                                            </span>
+                                        </div>
+                                        <div class="overlay">
+                                            <div class="centered"><a class="link_arrow white_border white_border_old" href="/san-pham/@item.Slug">Chi tiết</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="proerty_content proerty_content_old">
+                                        <div class="proerty_text proerty_text_old">
+                                            <h3>
+                                                <a href="/san-pham/@item.Slug">
+                                                    @slitString.TruncateAtWord(item.Name, 20)
+                                                </a>
+                                            </h3>
+                                            <span class="bottom10 span-old">
+                                                @slitString.TruncateAtWord(item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 18).FirstOrDefault().Value, 50)
+                                            </span>
+                                            <p class="price-old">
+                                                <strong>
+                                                    Giá: @item.OrginalPrice.ToString("#,##0") VND
+                                                </strong>
+                                            </p>
+                                        </div>
+                                        <div class="favroute clearfix">
+                                            <p class="pull-left p-old">
+                                                <i class="icon-calendar2"></i>
+                                                @item.DateCreated.ToLongDateString()
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        }
+                                                        catch (Exception)
+                                                        {
+
+                                                            continue;
+                                                        }
+
+                                                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- RECENT PROPERTY -->
+<!-- Image & Text-->
+<section id="image-text" class="padding-bottom-top-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="image-text-heading top30 bottom30">
+                    @Html.Action("Slogan", "Home")
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Image & Text End-->
+<!-- BEST DEALS -->
+<!-- OUR TEAM -->
+@*<section class="padding bg_light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 bottom20">
+                    <h2 class="text-uppercase"><span class="color_red">Những chuyên gia</span> của chúng tôi</h2>
+                    <div class="line_1"></div>
+                    <div class="line_2"></div>
+                    <div class="line_3"></div>
+
+                </div>
+            </div>
+            <div class="row">
+                @Html.Action("HomeStaff", "Home")
+            </div>
+        </div>
+    </section>*@
+<!-- 3/OUR TEAM -->
+<section id="agent-p-2" class=" padding-bottom-top-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 bottom40">
+                <h2 class="text-uppercase">Nhà đất <span class="color_red">Cho Thuê</span></h2>
+                <div class="line_1"></div>
+                <div class="line_2"></div>
+                <div class="line_3"></div>
+
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div id="property-2-slider" class="owl-carousel">
+                    @foreach (var item in Model.ThueProduct)
+                    {
+                        try
+                        {
+                            <div class="item">
+                                <div class="property_item property_item_old bottom40">
+                                    <div class="image image-old">
+                                        @try
+                                        {
+                                            <img src="@item.ProductPictureMappings.FirstOrDefault().Picture.Url" alt="there is no image." class="img-responsive img-old">
+                                        }
+                                        catch (Exception)
+                                        {
+
+                                            <img src="" alt="there is no image." class="img-responsive img-old">
+                                        }
+
+                                        <div class="property_meta">
+                                            <span>
+                                                <i class="fa fa-object-group"></i>
+                                                @*530 sq ft*@ @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 3).FirstOrDefault().Value @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 3).FirstOrDefault().ProductAttribute.Name
+                                            </span>
+                                            <span>
+                                                <i class="fa fa-bed"></i>
+                                                @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 4).FirstOrDefault().Value Phòng ngủ
+                                            </span>
+                                            <span>
+                                                <i class="fa fa-bath"></i>
+                                                @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 5).FirstOrDefault().Value Phòng tắm
+                                            </span>
+                                            <span>
+                                                <i class="fa fa-car"></i>
+                                                @{
+                                                    if (item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 7).FirstOrDefault().Value.Equals(true))
+                                                    {
+                                                        <span>
+                                                            Có
+                                                        </span>
+                                                    }
+                                                    else
+                                                    {
+                                                        <span>
+                                                            Không
+                                                        </span>
+                                                    }
+                                                }Nhà xe
+                                            </span>
+
+                                        </div>
+                                        <div class="price">
+                                            <span class="tag">
+                                                @if (item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 24).FirstOrDefault().Value.Equals("true"))
+                                                {
+                                                    <span>
+                                                        Cần bán
+                                                    </span>
+                                                }
+                                                else
+                                                {
+                                                    <span>
+                                                        Cần cho thuê
+                                                    </span>
+                                                }
+                                            </span>
+                                        </div>
+                                        <div class="overlay">
+                                            <div class="centered"><a class="link_arrow white_border white_border_old" href="/san-pham/@item.Slug">Chi tiết</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="proerty_content proerty_content_old">
+                                        <div class="proerty_text proerty_text_old">
+                                            <h3>
+                                                <a href="/san-pham/@item.Slug">
+                                                    @slitString.TruncateAtWord(item.Name, 20)
+                                                </a>
+                                            </h3>
+                                            <span class="bottom10 span-old">
+                                                @slitString.TruncateAtWord(item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 18).FirstOrDefault().Value, 50)
+                                            </span>
+                                            <p class="price-old">
+                                                <strong>
+                                                    Giá: @item.OrginalPrice.ToString("#,##0") VND
+                                                </strong>
+                                            </p>
+                                        </div>
+                                        <div class="favroute clearfix">
+                                            <p class="pull-left p-old">
+                                                <i class="icon-calendar2"></i>
+                                                @item.DateCreated.ToLongDateString()
+                                            </p>
+                                            @*<ul class="pull-right">
+                    <li><a href="#."><i class="icon-video"></i></a></li>
+                    <li><a href="#."><i class="icon-like"></i></a></li>
+                    </ul>*@
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        }
+                                                        catch (Exception)
+                                                        {
+
+                                                            continue;
+                                                        }
+
+                                                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="agent-p-2" class="property-details bg_light padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 bottom40">
+                <h2 class="text-uppercase">Nhà đất <span class="color_red">Cho Bán</span></h2>
+                <div class="line_1"></div>
+                <div class="line_2"></div>
+                <div class="line_3"></div>
+
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div id="property-2-slider" class="owl-carousel">
+                    @foreach (var item in Model.BanProduct)
+                    {
+                        try
+                        {
+
+                            <div class="item">
+                                <div class="property_item property_item_old bottom40">
+                                    <div class="image image-old">
+                                        @*  *@
+                                        @try
+                                        {
+                                        <img src="@item.ProductPictureMappings.FirstOrDefault().Picture.Url" alt="there is no image." class="img-responsive img-old">
+                                        }
+                                        catch (Exception)
+                                        {
+
+                                        <img src="" alt="there is no image." class="img-responsive img-old">
+                                        }
+
+                                        <div class="property_meta">
+                                            <span>
+                                                <i class="fa fa-object-group"></i>
+                                                @*530 sq ft*@ @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 3).FirstOrDefault().Value @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 3).FirstOrDefault().ProductAttribute.Name
+                                            </span>
+                                            <span>
+                                                <i class="fa fa-bed"></i>
+                                                @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 4).FirstOrDefault().Value Phòng ngủ
+                                            </span>
+                                            <span>
+                                                <i class="fa fa-bath"></i>
+                                                @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 5).FirstOrDefault().Value Phòng tắm
+                                            </span>
+                                            <span>
+                                                <i class="fa fa-car"></i>
+                                                @{
+                                                if (item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 7).FirstOrDefault().Value.Equals(true))
+                                                {
+                                                <span>
+                                                    Có
+                                                </span>
+                                                }
+                                                else
+                                                {
+                                                <span>
+                                                    Không
+                                                </span>
+                                                }
+                                                }Nhà xe
+                                            </span>
+
+                                        </div>
+                                        <div class="price">
+                                            <span class="tag">
+                                                @if (item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 24).FirstOrDefault().Value.Equals("true"))
+                                                {
+                                                <span>
+                                                    Cần bán
+                                                </span>
+                                                }
+                                                else
+                                                {
+                                                <span>
+                                                    Cần cho thuê
+                                                </span>
+                                                }
+                                            </span>
+                                        </div>
+                                        <div class="overlay">
+                                            <div class="centered"><a class="link_arrow white_border white_border_old" href="/san-pham/@item.Slug">Chi tiết</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="proerty_content proerty_content_old">
+                                        <div class="proerty_text proerty_text_old">
+                                            <h3>
+                                                <a href="/san-pham/@item.Slug">
+                                                    @slitString.TruncateAtWord(item.Name, 20)
+                                                </a>
+                                            </h3>
+                                            <span class="bottom10 span-old">
+                                                @slitString.TruncateAtWord(item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 18).FirstOrDefault().Value, 50)
+                                            </span>
+                                            <p class="price-old">
+                                                <strong>
+                                                    Giá: @item.OrginalPrice.ToString("#,##0") VND
+                                                </strong>
+                                            </p>
+                                        </div>
+                                        <div class="favroute clearfix">
+                                            <p class="pull-left p-old">
+                                                <i class="icon-calendar2"></i>
+                                                @item.DateCreated.ToLongDateString()
+                                            </p>
+                                            @*<ul class="pull-right">
+                                            <li><a href="#."><i class="icon-video"></i></a></li>
+                                            <li><a href="#."><i class="icon-like"></i></a></li>
+                                            </ul>*@
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        }
+                                                        catch (Exception)
+                                                        {
+
+                                                            continue;
+                                                        }
+                                                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- OUR PARTNERS -->
+@Html.Action("HomePartner", "Home")
+
+<!-- #/OUR PARTNERS -->
+<!-- CONTACT -->
+<section id="contact" class="bg-color-red">
+    <div class="container">
+        <div class="row">
+            @Html.Action("Info2", "Home")
+        </div>
+    </div>
+</section>
+<!-- #/CONTACT -->
+<script>
+    function validate(evt) {
+        var theEvent = evt || window.event;
+        var key = theEvent.keyCode || theEvent.which;
+        key = String.fromCharCode(key);
+        var regex = /[0-9]/;
+        if (!regex.test(key)) {
+            theEvent.returnValue = false;
+            if (theEvent.preventDefault) theEvent.preventDefault();
+        }
+    }
+</script>

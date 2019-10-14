@@ -1,0 +1,98 @@
+﻿@using PagedList.Mvc;
+@using Outsourcing.Core.Common;
+@using PagedList;
+@model IPagedList<Outsourcing.Data.Models.Color>
+
+@{
+    ViewBag.Title = "Chủ sở hữu";
+    Layout = "~/Views/Shared/_HumilandLayout.cshtml";
+}
+
+<!-- PAGE TITLE -->
+<div class="page-title page-main-section">
+    <div class="container padding-bottom-top-120 text-uppercase text-center">
+        <div class="main-title">
+            <h1>Quản lý Chủ Sở Hữu</h1>
+            @*<h5>10 Years Of Experience!</h5>*@
+            <div class="line_4"></div>
+            <div class="line_5"></div>
+            <div class="line_6"></div>
+            <a href="/">Trang Chủ</a><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+            <a href="/chu-so-huu">Chủ Sở Hữu</a>
+        </div>
+    </div>
+</div>
+<!--PAGE TITLE -->
+<!-- My - Property Start -->
+<section class="my_pro padding-50 bg-color-gray">
+    <div class="container">
+        <div class="row">
+            @*@Html.Partial("_navigateProfile", 2)*@
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="row">
+                    <div class="col-md-10 nameOwner"><h2 class="text-uppercase">Chủ sở hữu <span class="color_red"> Của Tôi</span></h2></div>
+                    <div class="col-md-2 buttonCreateOwner"><a href="/tao-chu-so-huu" class="btn btn-default design-button">Tạo mới</a></div>
+                </div>
+                <div class="line_1"></div>
+                <div class="line_2"></div>
+                <div class="line_3"></div>
+            </div>
+        </div>
+        <div class="row">
+            @if (Model.Any() && Model != null)
+            {
+                foreach (var item in Model)
+                {
+
+                    <div class="property-list-list" data-target="Residential">
+                        @*<div class="col-xs-12 col-sm-4 col-md-4 property-list-list-image">
+                                <a href="/dang-bat-dong-san/@item.Id?place=mp">
+                                    <img src="@item.ProductPictureMappings.FirstOrDefault().Picture.Url" alt="recent-properties-1" class="img-responsive">
+                                </a>
+                            </div>*@
+                        <div class="col-xs-12 col-sm-8 col-md-8 property-list-list-info">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <a href="/chi-tiet-chu-so-huu/@item.Id">
+                                    <h3>@item.Name</h3>
+                                </a>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <p class="recent-properties-price">@item.Phone_1</p>
+                                @if (item.Products!=null)
+                                {
+                                    <span class="recent-properties-address">@item.Products.Count<span> Bất động sản</span></span>
+                                }
+                            </div>
+
+                        </div>
+                        @if (User.IsInRole("SuperAdmin"))
+                        {
+                            <div class=" btn bg-color-green" style="margin-left: 15px;"><a href="/Owner/DeleteHolder?Id=@item.Id" class="hovWhite">Xóa chủ sở hữu</a></div>
+                        }
+                        <div class=" btn bg-color-green" style="margin-left: 15px;"><a href="/danh-sach-san-pham?Id=@item.Id" class="hovWhite">Danh sách Sản Phẩm sở hữu</a></div>
+                    </div>
+                }
+
+                <ul class="pager top40 padding_bottom">
+                    @Html.PagedListPager(Model, page => Url.Action("Index", "Owner", new { page }))
+                </ul>
+            }
+
+        </div>
+    </div>
+</section><!-- My - Property end --><!--===== CONTACT =====--><section id="contact" class="bg-color-red">
+    <div class="container">
+        <div class="row">
+            @Html.Action("Info2", "Home")
+        </div>
+    </div>
+</section><!--===== #/CONTACT =====-->
+@if (ViewBag.noti != null)
+{
+<script>
+    alert(@ViewBag.noti);
+</script>
+}

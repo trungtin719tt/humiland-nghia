@@ -1,0 +1,91 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.Blog>
+@using Outsourcing.Core.Common
+
+
+    @if (Model.Any() && Model != null)
+    {
+        foreach (var item in Model)
+        {
+
+        <div class="item post">
+            <figure class="main"><a href="/cong-viec/@item.Slug-@item.Id"><img src="@item.BlogImage" alt="" /></a></figure>
+            <div class="box text-center">
+                <div class="category cat12"><span><a href="/cong-viec/@item.Slug-@item.Id">Xem Thêm</a></span></div>
+
+                <h4 class="post-title"><a href="/cong-viec/@item.Slug-@item.Id">@item.Title</a></h4>
+                <div class="meta"><span class="date">@item.DateCreated</span><span class="comments"><a href="/cong-viec/@item.Slug-@item.Id"><i class="icon-chat-1"></i> 15</a></span></div>
+                <p>@slitString.TruncateAtWord(item.Description,79)</p>
+            </div>
+            <!-- /.box -->
+
+        </div>
+        }
+                <!-- /.post -->
+
+                @*<div class="item post">
+                    <figure class="main"><img src="/Content/droom/style/images/art/b2.jpg" alt="" /></figure>
+                    <div class="box text-center">
+                        <div class="category cat12"><span><a href="#">Xem Thêm</a></span></div>
+
+                        <h4 class="post-title"><a href="blog-post.html">Quam Mollis Ligula Nullam</a></h4>
+                        <div class="meta"><span class="date">12 Nov 2014</span><span class="comments"><a href="#"><i class="icon-chat-1"></i> 15</a></span></div>
+                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <!-- /.box -->
+
+                </div>
+                <!-- /.post -->
+
+                <div class="item post">
+                    <figure class="main"><img src="/Content/droom/style/images/art/b3.jpg" alt="" /></figure>
+                    <div class="box text-center">
+                        <div class="category cat12"><span><a href="#">Xem Thêm</a></span></div>
+
+                        <h4 class="post-title"><a href="blog-post.html">Tellus Bibendum Parturient</a></h4>
+                        <div class="meta"><span class="date">23 Dec 2014</span><span class="comments"><a href="#"><i class="icon-chat-1"></i> 15</a></span></div>
+                        <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor. Sed posuere consectetur est at. Duis mollis, est.</p>
+                    </div>
+                    <!-- /.box -->
+
+                </div>
+                <!-- /.post -->
+                <div class="item post">
+                    <figure class="main"><img src="/Content/droom/style/images/art/b4.jpg" alt="" /></figure>
+                    <div class="box text-center">
+                        <div class="category cat12"><span><a href="#">Xem Thêm</a></span></div>
+                        <h4 class="post-title"><a href="blog-post.html">Parturient Commodo Aenean</a></h4>
+                        <div class="meta"><span class="date">14 Oct 2014</span><span class="comments"><a href="#"><i class="icon-chat-1"></i> 15</a></span></div>
+                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus lacinia.</p>
+                    </div>
+                    <!-- /.box -->
+
+                </div>
+                <!-- /.post -->
+
+                <div class="item post">
+                    <figure class="main"><img src="/Content/droom/style/images/art/b5.jpg" alt="" /></figure>
+                    <div class="box text-center">
+                        <div class="category cat12"><span><a href="#">Xem Thêm</a></span></div>
+
+                        <h4 class="post-title"><a href="blog-post.html">Quam Mollis Ligula Nullam</a></h4>
+                        <div class="meta"><span class="date">12 Nov 2014</span><span class="comments"><a href="#"><i class="icon-chat-1"></i> 15</a></span></div>
+                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <!-- /.box -->
+
+                </div>
+                <!-- /.post -->
+
+                <div class="item post">
+                    <figure class="main"><img src="/Content/droom/style/images/art/b6.jpg" alt="" /></figure>
+                    <div class="box text-center">
+                        <div class="category cat12"><span><a href="#">Xem Thêm</a></span></div>
+
+                        <h4 class="post-title"><a href="blog-post.html">Tellus Bibendum Parturient</a></h4>
+                        <div class="meta"><span class="date">23 Dec 2014</span><span class="comments"><a href="#"><i class="icon-chat-1"></i> 15</a></span></div>
+                        <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor. Sed posuere consectetur est at. Duis mollis, est non.</p>
+                    </div>
+                    <!-- /.box -->
+
+                </div>*@
+    }

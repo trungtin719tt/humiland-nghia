@@ -1,0 +1,597 @@
+﻿<style>
+    .map, .map-canvas {
+        height: 500px;
+        width: 100%;
+    }
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+    /* Optional: Makes the sample page fill the window. */
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #description {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    #infowindow-content .title {
+        font-weight: bold;
+    }
+
+    #infowindow-content {
+        display: none;
+    }
+
+    #infowindow-content {
+        display: inline;
+    }
+
+    .pac-card {
+        margin: 10px 10px 0 0;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        font-family: Roboto;
+    }
+
+    #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+    }
+
+    .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+    }
+
+        .pac-controls label {
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 300;
+        }
+
+    #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 400px;
+    }
+
+        #pac-input:focus {
+            border-color: #4d90fe;
+        }
+
+    #title {
+        color: #fff;
+        background-color: #4d90fe;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 6px 12px;
+        font-family: 'Times New Roman';
+    }
+
+    .dz-image img {
+        width: 100% !important;
+    }
+
+    .required {
+        color: #a94442;
+        background-color: #f2dede !important;
+        border-color: #ebccd1 !important;
+    }
+</style>
+
+@{
+    ViewBag.Title = "Đăng bất động sản";
+    Layout = "~/Views/Shared/_HumilandLayout.cshtml";
+    var item = (string)ViewBag.place;
+}
+@model Labixa.Models.submitPropertyModel
+<!-- PAGE TITLE -->
+<div class="page-title page-main-section">
+    <div class="container padding-bottom-top-120 text-uppercase text-center">
+        <div class="main-title">
+            <h1>Đăng bất động sản</h1>
+            @*<h5>10 Years Of Experience!</h5>*@
+            <div class="line_4"></div>
+            <div class="line_5"></div>
+            <div class="line_6"></div>
+            <a href="/">Trang Chủ</a> <span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Dự án</a>
+        </div>
+    </div>
+</div>
+<!--PAGE TITLE -->
+<!-- PROPERTY DETAILS -->
+<section class="property-details padding">
+    <div class="container">
+        @Html.Partial("_navigateProfile", 3)
+
+
+        <div class="row">
+
+            <div class="col-md-1 col-sm-1 col-xs-12"></div>
+
+            <div class="col-md-10 col-sm-10 col-xs-12">
+
+                <div class="property-query-area">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="text-uppercase  bottom40">Đăng  <span class="color_red">Bất Động Sản</span></h3>
+                        </div>
+                    </div>
+
+                    <form class="findus" method="post" id="submitProperty" action="/Profile/SubmitProperty?place=@item">
+                        @Html.HiddenFor(model => model.Lat)
+                        @Html.HiddenFor(model => model.Long)
+                        @*@Html.Hidden((0ViewBag.place)*@
+                        <div class="row">
+                            <div class="form-group ">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <span>Tiêu Đề :</span>
+                                    </div>
+                                    <div class="single-query col-md-10 col-sm-10 col-xs-12">
+                                        @Html.EditorFor(model => model.Product.Name)
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <span>Quận :</span>
+                                    </div>
+                                    <div class="single-query col-md-10 col-sm-10 col-xs-12">
+                                        @Html.DropDownListFor(model => model.CategoryId, Model.listCategory)
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <br/>
+                                        <span>Chủ Sở Hữu :</span>
+                                    </div>
+                                    <div class="single-query col-md-10 col-sm-10 col-xs-12">
+                                        @if (Model.Product.Name == null)
+                                        {
+                                            <span style="color: red;">*Chú ý chọn chủ sở hữu / </span><a href="/chu-so-huu" target="_blank">Nhấn vào đây để thêm chủ sở hữu</a>
+
+                                        }
+                                        @*@Html.DropDownListFor(model => model.Product.ColorId, Model.ListColor.OrderBy(p => p.Text))*@
+                                        
+                                        <select class="js-example-basic-single" data-val="true" data-val-number="The field ColorId must be a number." data-val-required="The ColorId field is required." id="Product_ColorId" name="Product.ColorId">
+                                            @foreach (var color in Model.ListColor.OrderBy(p => p.Text))
+                                            {
+                                                if (color.Selected == true)
+                                                {
+                                                    <option selected="selected" value="@color.Value">@color.Text</option>
+                                                }
+                                                else
+                                                {
+                                                    <option  value="@color.Value">@color.Text</option>
+                                                }
+
+                                            }
+                                        </select>
+
+
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <span>Sản Phẩm Mới :</span>
+                                    </div>
+                                    <div class="single-query col-md-10 col-sm-10 col-xs-12">
+                                        @Html.EditorFor(model => model.Product.IsNew)
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    @if (User.IsInRole("SuperAdmin"))
+                                    {
+                                        <div class="col-md-2 col-sm-2 col-xs-12" style="color: red;">
+                                            <span>Công Bố :</span>
+                                        </div>
+
+                                        <div class="single-query col-md-10 col-sm-10 col-xs-12">
+                                            @Html.EditorFor(model => model.Product.IsPublic)
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        @Html.HiddenFor(model => model.Product.IsPublic)
+                                    }
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <span>Giá Bán:</span>
+                                    </div>
+                                    <div class="single-query col-md-10 col-sm-10 col-xs-12">
+                                        @*@Html.EditorFor(model => model.Product.OrginalPrice)*@
+                                        <input class="keyword-input" data-val="true" data-val-number="The field OrginalPrice must be a number." data-val-required="The OrginalPrice field is required." id="Product_OrginalPrice" name="Product.OrginalPrice" type="text" value="@Model.Product.OrginalPrice">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <span>Mô Tả Ngắn :</span>
+                                    </div>
+                                    <div class="single-query col-md-10 col-sm-10 col-xs-12">
+                                        @Html.EditorFor(model => model.Product.Description)
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <span>Nội Dung :</span>
+                                    </div>
+                                    <div class="single-query col-md-10 col-sm-10 col-xs-12">
+                                        @Html.EditorFor(model => model.Product.Content, "CkEditor")
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        @Html.HiddenFor(model => model.Product.Id)
+                        @*@Html.HiddenFor(model => model.ProductAttributeMappings.Where(p => p.ProductAttributeId == 26))
+                            @Html.HiddenFor(model =>model.ProductAttributeMappings.Where(p => p.ProductAttributeId == 27))*@
+                        @*@Html.HiddenFor(model =>model.ProductAttributeMappings)*@
+                        <div class="row">
+                            @Html.EditorFor(model => model.Product.ProductAttributeMappings)
+                            @*@Html.EditorFor(model => model.Product.ProductAttributeMappings.Where(p => p.ProductAttributeId != 30 && p.ProductAttributeId != 24))*@
+
+
+
+
+
+
+                        </div>
+                    </form>
+
+
+                    <div class="row padding_t55">
+
+                        <div class="col-md-12">
+                            <h3 class="text-uppercase  bottom40">Hình <span class="color_red">Ảnh:</span></h3>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <div class="file_uploader bottom20">
+                                @*<form id="upload-widget2" method="post" action="/Profile/UploadImage" enctype="multipart/form-data" class="dropzone">
+                                        @Html.HiddenFor(model => model.Id)
+                                        <div class="">
+                                            <span>
+                                                <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                                Kéo & thả hình tại đây …
+                                            </span>
+                                        </div>
+                                    </form>*@
+                                <!-- HTML heavily inspired by http://blueimp.github.io/jQuery-File-Upload/ -->
+                                <form action="/Profile/UploadImage" id="uploadimage" method="post" class="dropzone2">
+                                    @Html.HiddenFor(model => model.Product.Id)
+                                    <div class="fallback">
+                                        <input name="file" type="file" multiple />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row padding_t55">
+
+                        <div class="col-md-12">
+                            <h3 class="text-uppercase  bottom40">Vị Trí Bất Động Sản <span class="color_red">trên Bản Đồ: </span></h3>
+                            <div class="pac-card" id="pac-card">
+                                <div>
+                                    <div id="title">
+                                        Nhập Địa Chỉ
+                                    </div>
+                                </div>
+                                <div id="pac-container">
+                                    <input id="pac-input" type="text"
+                                           placeholder="Enter a location">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="map">
+                                <div id="map-canvas" class="map-canvas"></div>
+                            </div>
+                            <div id="infowindow-content">
+                                <img src="" width="16" height="16" id="place-icon">
+                                <span id="place-name" class="title"></span><br>
+                                <span id="place-address"></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-12 top30">
+                            <div class="query-submit-button">
+                                <button type="submit" id="buttonsubmits" class="btn_fill black">Cập Nhật</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col-md-1 col-sm-1 col-xs-12"></div>
+
+        </div>
+
+    </div>
+</section>
+<!-- PROPERTY DETAILS -->
+<!-- CONTACT -->
+<section id="contact" class="bg-color-red">
+    <div class="container">
+        <div class="row">
+            @Html.Action("Info2", "Home")
+        </div>
+    </div>
+</section>
+<!--CONTACT -->
+<script>
+    var map;
+    var bounds;
+    var lat = '10.866445';
+    var lng = '106.6016418';
+    @if (Model.Lat!=null && !Model.Lat.Equals("Default"))
+    {
+        @:lat = @Model.Lat;
+                    }
+    @if (Model.Long!= null && !Model.Long.Equals("Default")) {
+        @:lng = @Model.Long;
+                    }
+
+    var latLng = [{ lat: lat, lng: lng, title: "aa" }];
+
+
+    function initMap() {
+        bounds = new google.maps.LatLngBounds();
+        //console.log(latLng)
+        map = new google.maps.Map(document.getElementById('map-canvas'), {
+            center: new google.maps.LatLng(lat, lng),
+            zoom: 17,
+            scrollwheel: true,
+            streetViewControl: true,
+            zoomControl: true,
+            mapTypeControl: true,
+            disableDefaultUI: true,
+        });
+
+        var myLatLng = new google.maps.LatLng(latLng[0].lat, latLng[0].lng);
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            //icon: '',
+            title: latLng[0].title
+        });
+        map.setCenter(marker);
+
+        //autocomplete
+        var card = document.getElementById('pac-card');
+        var input = document.getElementById('pac-input');
+        var types =[];
+        map.controls[google.maps.ControlPosition.TOP_RIGHT].push(card);
+        var autocomplete = new google.maps.places.Autocomplete(input);
+        autocomplete.bindTo('bounds', map);
+        autocomplete.setTypes(types);
+
+        var infowindow = new google.maps.InfoWindow();
+        var infowindowContent = document.getElementById('infowindow-content');
+        infowindow.setContent(infowindowContent);
+        //var marker = new google.maps.Marker({
+        //    map: map,
+        //    anchorPoint: new google.maps.Point(0, -29)
+        //});
+        google.maps.event.addListener(map, 'click', function (event) {
+            var place = event.latLng.getPlace;
+            //marker.setMap(null);
+            marker.setPosition(event.latLng);
+            //marker.setMap(null);
+            //marker = new google.maps.Marker({
+            //    position: event.latLng,
+            //    map: map,
+            //    //icon: '',
+            //    //title: latLng[0].title
+            //});
+            console.log($('#Product_ProductAttributeMappings_24__Value').val());
+            //console.log(place.geometry.location.lng());
+            $('#Product_ProductAttributeMappings_24__Value').val(event.latLng.lat());
+            $('#Product_ProductAttributeMappings_25__Value').val(event.latLng.lng());
+        });
+
+        autocomplete.addListener('place_changed', function () {
+            infowindow.close();
+            //marker.setVisible(false);
+            var place = autocomplete.getPlace();
+            if (!place.geometry) {
+                // User entered the name of a Place that was not suggested and
+                // pressed the Enter key, or the Place Details request failed.
+                window.alert("No details available for input: '" + place.name + "'");
+                return;
+            }
+
+            // If the place has a geometry, then present it on a map.
+            if (place.geometry.viewport) {
+                map.fitBounds(place.geometry.viewport);
+            } else {
+                map.setCenter(place.geometry.location);
+                map.setZoom(17);  // Why 17? Because it looks good.
+            }
+            //marker.setPosition(place.geometry.location);
+            marker.setMap(null);
+            marker = new google.maps.Marker({
+                position: place.geometry.location,
+                map: map,
+                //icon: '',
+                title: latLng[0].title
+            });
+            //marker.setVisible(true);
+            console.log($('#Product_ProductAttributeMappings_24__Value').val() );
+            console.log(place.geometry.location.lng());
+            $('#Product_ProductAttributeMappings_24__Value').val(place.geometry.location.lat());
+            $('#Product_ProductAttributeMappings_25__Value').val(place.geometry.location.lng());
+            var address = '';
+            if (place.address_components) {
+                address = [
+                    (place.address_components[0] && place.address_components[0].short_name || ''),
+                    (place.address_components[1] && place.address_components[1].short_name || ''),
+                    (place.address_components[2] && place.address_components[2].short_name || '')
+                ].join(' ');
+            }
+
+            infowindowContent.children['place-icon'].src = place.icon;
+            infowindowContent.children['place-name'].textContent = place.name;
+            infowindowContent.children['place-address'].textContent = address;
+            infowindow.open(map, marker);
+        });
+    }
+
+    $(function () {
+        'user strict';
+
+        initMap();
+
+        $('.address-list h3.title').click(function () {
+            var lat = parseFloat($(this).data('lat'));
+            var lng = parseFloat($(this).data('lng'));
+            var title = parseFloat($(this).data('title'));
+            var mylatLng = new google.maps.LatLng(lat, lng);
+
+            var myLatLng = new google.maps.LatLng(lat, lng);
+            var marker = new google.maps.Marker({
+                position: mylatLng,
+                map: map,
+                icon: iconBase,
+                title: title
+            })
+            bounds.extend(myLatLng);
+
+            map.setCenter(mylatLng);
+            map.setZoom(15);
+        });
+    })
+
+</script>
+
+<script>
+    $("#buttonsubmits").click(function () {
+        var name = $("#Product_Name");
+        var price = $("#Product_OrginalPrice")
+        var address
+        name.removeClass("required");
+        //price.removeClass("required");
+        if (name[0].value == "") {
+            name.addClass("required");
+            name.attr("placeholder", "Vui lòng điền thông tin").val("").focus().blur();
+        } else {
+            var noCommas = $('#Product_OrginalPrice').val();
+            $('#Product_OrginalPrice').val(noCommas.replace(/,/g, ''));
+            $("#submitProperty").submit();
+        }
+
+        //if(name[0].value == "" || price[0].value == "0" || price[0].value == "" || isNaN(price[0].value)){
+        //    if(name[0].value == "" ){
+        //        name.addClass("required");
+        //        name.attr("placeholder", "Vui lòng điền thông tin").val("").focus().blur();
+        //    }
+        //    if(price[0].value == "0"  || price[0].value ==""|| isNaN(price[0].value)){
+        //        price.addClass("required");
+        //        if(name[0].value != ""){
+        //            price.attr("placeholder", "Vui lòng điền thông tin").val("").focus().blur();
+        //        }else{
+        //            price.attr("placeholder", "Vui lòng điền thông tin");
+        //        }
+
+        //    }
+        //}else{
+
+        //    $("#submitProperty").submit();
+        //}
+    });
+    var myDropzone = new Dropzone("#uploadimage", {
+        url: "/Profile/UploadImage",
+        maxFiles: 20,
+        maxFilesize:200,
+        addRemoveLinks: true,
+        acceptedFiles: "image/*",
+        removedfile: function (file) {
+            var name = file.name;
+            var paths = file.previewElement.getElementsByClassName("dz-image")[0].getElementsByTagName("img")[0].getAttribute("src");
+            var Id = file.previewElement.getElementsByClassName("dz-filename")[0].getElementsByTagName("span")[0].innerText;
+            $.ajax({
+                type: 'POST',
+                url: '/Profile/DeleteImage',
+                data: { path: paths, id:Id },
+            });
+            var _ref;
+            return (_ref = file.previewElement) != null ? _ref.parentNode.removeChild(file.previewElement) : void 0;
+        },
+        init: function () {
+            var thisDropzone = this;
+            //Call the action method to load the images from the server
+            $.getJSON("/Profile/GetAttachments/", { productId : @Model.Product.Id }).done(function (data) {
+                if (data.Data != '') {
+
+                    $.each(data.Data, function (index, item) {
+                        //// Create the mock file:
+                        var mockFile = {
+                            name: item.AttachmentID,
+                            size: 12345
+                        };
+
+                        // Call the default addedfile event handler
+                        thisDropzone.emit("addedfile", mockFile);
+
+                        // And optionally show the thumbnail of the file:
+                        thisDropzone.emit("thumbnail", mockFile, item.Path);
+
+                        // If you use the maxFiles option, make sure you adjust it to the
+                        // correct amount:
+                        //var existingFileCount = 1; // The number of files already uploaded
+                        //myDropzone.options.maxFiles = myDropzone.options.maxFiles - existingFileCount;
+                    });
+                }
+
+            });
+        }
+    });
+
+</script>
+
+<!-- jQuery and Plugin References -->
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autonumeric/2.0.13/autoNumeric.js"></script>
+<script type='text/javascript'>
+    $(function ($) {
+        $('#Product_OrginalPrice').autoNumeric('init', { lZero: 'deny', aSep: ',', mDec: 0, vMin: '0', vMax: '1000000000000' });
+    });
+</script>
+<script>
+    //$(document).ready(function () {
+    //    $('.js-example-basic-multiple').select2();
+    //});
+    $(document).ready(function () {
+        $('.js-example-basic-single').select2();
+    });
+</script>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>

@@ -1,0 +1,220 @@
+﻿<link href="~/Content/droom/style/css/edit3.css" rel="stylesheet" />
+@{
+    ViewBag.title = "LILOEDU - Trung Tâm Đào Tạo IoT";
+    ViewBag.keyword = "Iot arduino, board arduino, dao tao, lap trinh, arduino";
+    ViewBag.description = "LILOEDU - Đăng ký học lập trình IoT trên board Arduino.";
+}
+<style>
+    .navbar {
+      background-color: transparent !important;
+}
+</style>
+<div class="tp-fullscreen-container revolution" id="homes">
+    @*  *@
+    @Html.Action("Banner", "Home")
+    <!-- /.tp-fullscreen-container -->
+</div>
+<!-- /.revolution -->
+<!--======= PORTFOLIO ITEMS =========-->
+<section class="services-3" id="about">
+    <!--======= SERVICES =========-->
+    <div class="services">
+        <div class="container">
+            <h2 style="text-align:center;margin-top:100px"><a href="/ve-chung-toi">LILOEDU – School Of Internet of Things</a></h2>
+            <p class="pull-center">
+                <span>______________</span>
+                <span>&#9825;</span>
+                <span>______________</span>
+            </p>
+            <ul class="row">
+                <!--======= SERVICES =========-->
+                @Html.Action("AboutUs", "Home")
+            </ul>
+
+        </div>
+        <div id="courses" style="height: 60px;">
+
+        </div>
+    </div>
+</section>
+
+<section class="services-3" id="courses">
+    <div class="services">
+        <div class="container khoahocGroup">
+            <h2 style="text-align:center">Khóa Học</h2>
+            <p class="pull-center">
+                <span>______________</span>
+                <span>&#9825;</span>
+                <span>______________</span>
+            </p>
+            <div class="row-fluid khoahocsroll">
+               
+                @Html.Action("KhoaHoc", "Home")
+            </div>
+            
+            <div class="row" style="margin-top:28px;">
+                <div class="col-md-12" style="text-align:center">
+                    <a class="btn btn-info" href="/khoa-hoc-all">Xem tất cả</a>
+                </div>
+            </div>
+        </div>
+        <div id="news" style="height: 60px;">
+
+        </div>
+    </div>
+</section>
+<div class="light-wrapper" id="news">
+    <div class="services container inner">
+        <h2 class="section-title text-center">Tin Tức</h2>
+        <p class="pull-center">
+            <span>______________</span>
+            <span>&#9825;</span>
+            <span>______________</span>
+        </p>
+        <div class="divide10"></div>
+        <div class="carousel-wrapper">
+            <div class="carousel carousel-boxed blog">
+                @*  *@
+                @Html.Action("TinTuc", "Home")
+                <!-- /.post -->
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="text-align:center">
+                    <a class="btn btn-info" href="/tin-tuc-all">Xem Tất Cả</a>
+                </div>
+            </div>
+            <!--/.carousel -->
+        </div>
+        <!--/.carousel-wrapper -->
+    </div>
+    <!--/.container -->
+    <div id="work" style="height:60px">
+
+    </div>
+    <div class="light-wrapper" id="work">
+        <div class="services container inner">
+            <h2 class="section-title text-center">Ưu Đãi</h2>
+            <p class="pull-center">
+                <span>______________</span>
+                <span>&#9825;</span>
+                <span>______________</span>
+            </p>
+            <div class="divide10"></div>
+            <div class="carousel-wrapper">
+                <div class="carousel carousel-boxed blog">
+                    @*  *@
+                    @Html.Action("Work", "Home")
+                    <!-- /.post -->
+                </div>
+                <div class="row" id="team-member">
+                    <div class="col-md-12" style="text-align:center">
+                        <a class="btn btn-info" href="/cong-viec-all">Xem Tất Cả</a>
+                    </div>
+                </div><!--/.carousel -->
+            </div>
+            <!--/.carousel-wrapper -->
+        </div>
+        <!--/.container -->
+        <div>
+
+        </div>
+    </div>
+
+
+
+    @*<section id="team-member" class="inner">
+        <div class="services container">
+            <!--======= TITTLE =========-->
+            <div class="tittle">
+                <h2>Gương Mặt Giảng Viên</h2>
+                <p class="pull-center">
+                    <span>______________</span>
+                    <span>&#9825;</span>
+                    <span>______________</span>
+                </p>
+                <p>
+                    @Html.Raw(ViewBag.guongmatgiangvien)
+                </p>
+            </div>
+
+            <!--======= TEAM ROW =========-->
+            <div class="row">
+
+                <div class="col-md-12">
+                    <ul class="row team-mem teamslick">
+                        @Html.Action("Team", "Home")
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div id="services">
+
+        </div>
+    </section>*@
+
+    <section class="services-3 inner" id="contacts">
+        <div class="services container">
+            <div class="portfolio-filter">
+                <div class="container">
+                    <!--======= TITTLE =========-->
+                    <div class="tittle">
+                        <div class="pull-center">
+                            <h2>Liên Hệ</h2>
+                            <p>
+                                <span>______________</span>
+                                <span>&#9825;</span>
+                                <span>______________</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--======= PORTFOLIO ITEMS =========-->
+
+                <div class="signup-root">
+                    <form action="/Home/Message" method="post">
+                        <div class="row signup">
+                            <div class="col-md-3">
+                                <h4 class="color-black">Thông tin liên lạc</h4>
+                                <ul class="clear-margin clear-padding">
+                                    <li>Đăng Ký Khóa Học Vui Lòng Để Lại Thông Tin Chi Tiết</li>                                    
+                                </ul>
+                            </div>
+                            <div class="col-md-7 ">
+                                <h4 class="fontweight600 color-black" style="text-align:center">Xin vui lòng để tin nhắn</h4>
+                                <div class="row">
+                                    <div class="col-sm-6 ">
+                                        <input class="w100per clear-margin clear-padding" name="name" placeholder="Họ và tên" onfocus="this.value=''" />
+                                    </div>
+                                    <div class="col-sm-6 clear-padding">
+                                        <input class="w100per clear-margin clear-padding" name="email" placeholder="Email liên lạc" onfocus="this.value=''" />
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-sm-6 ">
+                                        <input class="w100per clear-margin clear-padding" name="phone" placeholder="Số điện thoại" onfocus="this.value=''" />
+                                    </div>
+                                    <div class="col-sm-6 clear-padding">
+                                        <input class="w100per clear-margin clear-padding" name="message" placeholder="Tin nhắn" onfocus="this.value=''" />
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="col-sm-10">
+                                <p class="btnsend">
+                                    <input type="submit" class="btn btn-info" value="Send message" />
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="col-xs-12 pull-right"></div>
+                </div>
+
+
+            </div>
+        </div>
+</section>
+
+

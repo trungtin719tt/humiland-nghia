@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>
+
+<div class="get-tuch text-left top20">
+    <i class="icon-telephone114"></i>
+    <ul>
+        <li><h4>@Model.Where(p => p.Name.Equals("Số Điện Thoại")).FirstOrDefault().Name</h4></li>
+        @foreach (var item in Model.Where(p => p.Name.Equals("Số Điện Thoại")))
+        {
+            <li><p>@item.Value</p></li>
+        }
+        
+    </ul>
+</div>
+<div class="get-tech-line top20">
+    <img src="/Content/humiland/images/get-tuch-line.png" alt="line" />
+</div>
+<div class="get-tuch text-left top20">
+    <i class="icon-icons74"></i>
+    <ul>
+        <li><h4>@Model.Where(p => p.Name.Equals("HUMILAND")).FirstOrDefault().Name</h4></li>
+        <li><p>@Model.Where(p => p.Name.Equals("HUMILAND")).FirstOrDefault().Value</p> </li>
+    </ul>
+</div>
+<div class="get-tech-line top20"><img src="/Content/humiland/images/get-tuch-line.png" alt="line" /></div>
+<div class="get-tuch text-left top20">
+    <i class=" icon-icons142"></i>
+    <ul>
+        <li><h4>@Model.Where(p => p.Name.Equals("Địa chỉ Email")).FirstOrDefault().Name</h4></li>
+        <li><p>@Model.Where(p => p.Name.Equals("Địa chỉ Email")).FirstOrDefault().Value</p></li>
+    </ul>
+</div>

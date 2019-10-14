@@ -1,0 +1,49 @@
+﻿@using Outsourcing.Core
+@model Outsourcing.Data.Models.ProductAttributeMapping
+@{
+    var template = "";
+    if (Model.ProductAttribute.ControlType == "TextArea")
+    {
+        template = "Ckeditor";
+    }
+    else if (Model.ProductAttribute.ControlType.ToLower().Equals("checkbox"))
+    {
+        template = "CheckBox";
+    }
+    else if (Model.ProductAttribute.ControlType.ToLower().Equals("number"))
+    {
+        template = "Number";
+        if (Model.Value.Equals("Default") || Model.Value==null )
+        {
+        Model.Value = "0";
+        }
+    }
+}
+@if (Model.ProductAttribute.Deleted)
+{
+    @Html.HiddenFor(model => model.Value)
+    @Html.HiddenFor(model => model.Id)
+    @Html.HiddenFor(model => model.ProductId)
+    @Html.HiddenFor(model => model.ProductAttributeId)
+    @Html.HiddenFor(model => model.IsRequired)
+    @Html.HiddenFor(model => model.DisplayOrder)
+
+}
+else
+{
+    <div class="form-group ">
+        @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.ProductId)
+        @Html.HiddenFor(model => model.ProductAttributeId)
+        @Html.HiddenFor(model => model.IsRequired)
+        @Html.HiddenFor(model => model.DisplayOrder)
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <span>@Model.ProductAttribute.Description :</span>
+            </div>
+            <div class="single-query col-md-8 col-sm-8 col-xs-12">
+                @Html.EditorFor(model => model.Value, template)
+            </div>
+        </div>
+    </div>
+}

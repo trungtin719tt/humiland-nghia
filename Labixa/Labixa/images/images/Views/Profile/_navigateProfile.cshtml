@@ -1,0 +1,53 @@
+﻿@model int?
+    @if (Model == 1)
+    {
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="f-p-links">
+                    <li><a href="/thong-tin-ca-nhan" class="active"><i class="icon-icons230"></i> Hồ Sơ</a></li>
+                    <li><a href="/bat-dong-san"><i class="icon-icons215"></i> Bất Động Sản</a></li>
+                    <li><a href="/dang-bat-dong-san"><i class="icon-icons215"></i> Đăng Bất Động Sản</a></li>
+                    <li><a href="/Account/SignOut"><i class="icon-lock-open3"></i> Đăng Xuất</a></li>
+                </ul>
+            </div>
+        </div>
+    }
+    else if (Model == 2)
+    {
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="f-p-links">
+                    <li><a href="/thong-tin-ca-nhan"><i class="icon-icons230"></i> Hồ Sơ</a></li>
+                    <li><a href="/bat-dong-san"  class="active"><i class="icon-icons215"></i> Bất Động Sản</a></li>
+                    <li><a href="/dang-bat-dong-san"><i class="icon-icons215"></i> Đăng Bất Động Sản</a></li>
+                    <li><a href="/Account/SignOut"><i class="icon-lock-open3"></i> Đăng Xuất</a></li>
+                </ul>
+            </div>
+        </div>
+    }
+    else if (Model == 3)
+    {
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="f-p-links">
+                    <li><a href="/thong-tin-ca-nhan" ><i class="icon-icons230"></i> Hồ Sơ</a></li>
+                    <li><a href="/bat-dong-san"><i class="icon-icons215"></i> Bất Động Sản</a></li>
+                    <li><a href="/dang-bat-dong-san" class="active"><i class="icon-icons215"></i> Đăng Bất Động Sản</a></li>
+                    <li><a href="/Account/SignOut"><i class="icon-lock-open3"></i> Đăng Xuất</a></li>
+                </ul>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="f-p-links">
+                    <li><a href="/thong-tin-ca-nhan" ><i class="icon-icons230"></i> Hồ Sơ</a></li>
+                    <li><a href="/bat-dong-san"><i class="icon-icons215"></i> Bất Động Sản</a></li>
+                    <li><a href="/dang-bat-dong-san"><i class="icon-icons215"></i> Đăng Bất Động Sản</a></li>
+                    <li><a href="/Account/SignOut" class="active"><i class="icon-lock-open3"></i> Đăng Xuất</a></li>
+                </ul>
+            </div>
+        </div>
+    }

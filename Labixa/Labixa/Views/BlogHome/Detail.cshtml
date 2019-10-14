@@ -1,0 +1,336 @@
+﻿@model Outsourcing.Data.Models.Blog
+@{
+    ViewBag.url = "www.humiland.com/tin-tuc";
+    ViewBag.title = "Humiland Trang Giao Dịch Bất Động Sản Tại TP HCM";
+    ViewBag.description = "CHUYÊN MUA BÁN NHÀ PHỐ, ĐẤT NỀN TP HCM";
+    ViewBag.image = "/Content/humiland/images/logo2.png";
+}
+@if (Model != null)
+{
+    {
+        ViewBag.url = "www.humiland.com/tin-tuc/"+Model.Slug;
+        ViewBag.title = Model.Title;
+        ViewBag.description = Model.Description;
+        ViewBag.image = Model.BlogImage;
+    }
+    <!--===== PAGE TITLE =====-->
+    <div class="page-title page-main-section">
+        <div class="container padding-bottom-top-120 text-uppercase text-center">
+            <div class="main-title">
+                <h1>Chi Tiết Tin Tức</h1>
+                @*<h5>10 Years Of Experience!</h5>*@
+                <div class="line_4"></div>
+                <div class="line_5"></div>
+                <div class="line_6"></div>
+                <a href="/">Trang Chủ</a><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                <a href="/tin-tuc/@Model.Slug">Chi tiết Blog</a>
+            </div>
+        </div>
+    </div>
+    <!--===== #/PAGE TITLE =====-->
+    <!--===== NEWS DETAILS =====-->
+    <section id="news-section-1" class="news-section-details property-details padding_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-lg-2"></div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="news-1-box margin_bottom  clearfix">
+                            <div class="col-md-12 col-sm-12 col-xs-12 tuilatui">
+
+                                <h3>@Model.Title</h3>
+
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <img src="@Model.BlogImage" alt="image" class="img-responsive" />
+
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 col-xs-12 tuilatui">
+                                @*<div class="news-details">
+                                        <span><i class="icon-icons230"></i> by Martin Moore</span>
+                                        <span><i class="icon-icons228"></i> Ngày 22 Tháng 8, 2017</span>
+                                    </div>*@
+                                @*<h3>@Model.Title</h3>*@
+
+                                @Html.Raw(Model.Content)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 margin-t60 margin-b60">
+                            <h2 class="text-uppercase">Tin Tức <span class="color_red">Mới</span></h2>
+                            <div class="line_1"></div>
+                            <div class="line_2"></div>
+                            <div class="line_3"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        @Html.Action("newPost", "BlogHome")
+                        @*<div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="sim-lar-p">
+                                    <img src="/Content/humiland/images/news-d-3.jpg" alt="image">
+                                    <div class="sim-lar-text">
+                                        <h3>Masteri Thảo Điền</h3>
+                                        <p><span>By:</span> Admin <span>|</span> <span>Date:</span> Feb 22, 2017</p>
+                                        <p>
+                                            Masteri Thảo Điền là dự án khu căn hộ cao cấp kết hợp Trung tâm thương mại (TTTM), dịch vụ văn phòng và khách sạn, được triển khai trên diện tích 8ha có mặt tiền dọc theo đường Xa lộ Hà Nội, thuộc khu Thảo Điền.
+                                        </p>
+                                        <a href="#." class="link_arrow top20">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="sim-lar-p">
+                                    <img src="/Content/humiland/images/news-d-4.jpg" alt="image">
+                                    <div class="sim-lar-text">
+                                        <h3>Masteri Thảo Điền</h3>
+                                        <p><span>By:</span> Admin <span>|</span> <span>Date:</span> Feb 22, 2017</p>
+                                        <p>
+                                            Masteri Thảo Điền là dự án khu căn hộ cao cấp kết hợp Trung tâm thương mại (TTTM), dịch vụ văn phòng và khách sạn, được triển khai trên diện tích 8ha có mặt tiền dọc theo đường Xa lộ Hà Nội, thuộc khu Thảo Điền.
+                                        </p>
+                                        <a href="#." class="link_arrow top20">Xem chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>*@
+                    </div>
+                    @*<div class="row">
+                            <div class="col-md-12 margin-t60 margin-b60">
+                                <h2 class="text-uppercase">Bình  <span class="color_red">Luận</span></h2>
+                                <div class="line_1"></div>
+                                <div class="line_2"></div>
+                                <div class="line_3"></div>
+
+                            </div>
+                        </div>*@
+                    @*<div class="row">
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <img src="/Content/humiland/images/news-comnts-1.jpg" alt="image" />
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-12">
+                                <div class="news-comnts-text">
+                                    <h4>Alison Johnson <span>Ngày 22 Tháng 2, 2017</span></h4>
+                                    <a href="#." class="link_arrow top20">Trả lời</a>
+                                    <p>Nhìn thật bắt mắt</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-12 text-right">
+                                <img src="/Content/humiland/images/news-comnts-1.jpg" alt="image" />
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-12">
+                                <div class="news-comnts-text">
+                                    <h4>Alison Johnson <span>Ngày 22 Tháng 2, 2017</span></h4>
+                                    <a href="#." class="link_arrow top20">Trả lời</a>
+                                    <p class="p-font-15">Nhìn thật bắt mắt</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <img src="/Content/humiland/images/news-comnts-1.jpg" alt="image" />
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-12">
+                                <div class="news-comnts-text">
+                                    <h4>Alison Johnson <span>Ngày 22 Tháng 2, 2017</span></h4>
+                                    <a href="#." class="link_arrow top20">Trả lời</a>
+                                    <p class="p-font-15">Nhìn thật bắt mắt</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-12 margin-t60 margin-b60">
+                                <h2 class="text-uppercase">Để lại <span class="color_red">Bình luận</span></h2>
+                                <div class="line_1"></div>
+                                <div class="line_2"></div>
+                                <div class="line_3"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="agent-p-form padding_bottom">
+                                    <form class="findus" onSubmit="return false">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="single-query">
+                                                    <input type="text" class="keyword-input" placeholder="Tên" id="name">
+                                                </div>
+                                                <div class="single-query">
+                                                    <input type="text" class="keyword-input" placeholder="Địa chỉ Email" id="email">
+                                                </div>
+                                                <div class="single-query">
+                                                    <input type="text" class="keyword-input" placeholder="Website" id="phone">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="single-query">
+                                                    <textarea placeholder="Massege" id="Tin nhắn"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <button type="submit" class="btn_fill" id="btn_submit">Đăng Bình Luận</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>*@
+                </div>
+                <div class="col-md-2 col-lg-2">
+                    @*<div class="search_box blog-thumbnail">
+                            <div class="input-group">
+                                <input class="form-control custom_input" placeholder="Search" type="text">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default custom_input" type="button"><i class="fa fa-search"></i></button>
+                                </span>
+                            </div>
+                        </div>*@
+                    @*<div class="blog_info blog-thumbnail">
+                            <div class="blogimagedescription">
+                                <h3>Categories</h3>
+                            </div>
+                            <ul class="archieves clearfix">
+                                <li><a href="#.">Bất Động sản cập nhật</a></li>
+                                <li><a href="#.">Các khu Lân Cận</a></li>
+                                <li><a href="#.">Các tiện nghị tại Khu dân cư Nam Rạch Chiếc</a></li>
+                                <li><a href="#.">Trường Đại học tại Khu dân cư Nam Rạch Chiếc</a></li>
+                            </ul>
+                        </div>*@
+                    @*<div class="blog_info blog-thumbnail">
+                            <div class="blogimagedescription">
+                                <h3>Popular posts</h3>
+                            </div>
+                            <ul class="archieves clearfix">
+                              @Html.Action("popularPost", "BlogHome")
+                            </ul>
+                        </div>*@
+                    @*<div class="blog_info blog-thumbnail">
+                            <div class="blogimagedescription">
+                                <h3>Hồ Sơ Lưu Trữ</h3>
+                            </div>
+                            <ul class="archieves">
+                                <li><a href="#.">Tháng 5 2015</a></li>
+                                <li><a href="#.">Tháng 4 2015</a></li>
+                                <li><a href="#.">Tháng 2 2015</a></li>
+                                <li><a href="#.">Thang 1 2015</a></li>
+                                <li><a href="#.">Tháng 11 2014</a></li>
+                            </ul>
+                        </div>*@
+                    <div class="clearfix"></div>
+                    @*<h3 class="text-uppercase  bottom40">Thẻ</h3>
+                        <div class="news-tag">
+                            <a href="#.">Dự Kiến</a>
+                            <a href="#.">Căn Hộ</a>
+                            <a href="#.">Nhà Mẫu</a>
+                        </div>*@
+                    @*<div class="news-tag">
+                            <a href="#.">Sang trọng</a>
+                            <a href="#.">Kinh tế</a>
+                            <a href="#.">Độc Quyền</a>
+                            <a href="#.">Sáng Kiến</a>
+                        </div>
+                        <div class="news-tag">
+                            <a href="#.">Khu tự nhiên</a>
+                            <a href="#.">Nhà Thân Thiện</a>
+                        </div>*@
+                    @*<div class="row">
+                            <div class="col-md-12 bottom20">
+                                <h3 class="text-uppercase top40 bottom40">Bất Động Sản <span class="color_red">Mới Nhất</span></h3>
+                            </div>
+                            <div class="col-md-12">
+                                <div id="agent-3-slider" class="owl-carousel">
+                                    <div class="item">
+                                        <div class="property_item">
+                                            <div class="image">
+                                                <a href="#."><img src="/Content/humiland/images/property-listing-6.jpg" alt="listin" class="img-responsive"></a>
+                                                <div class="feature"><span class="tag-2">Cho Thuê</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="property_item">
+                                            <div class="image">
+                                                <a href="#."><img src="/Content/humiland/images/property-listing-6.jpg" alt="listin" class="img-responsive"></a>
+                                                <div class="feature"><span class="tag-2">Cho Thuê</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="property_item">
+                                            <div class="image">
+                                                <a href="#."><img src="/Content/humiland/images/property-listing-6.jpg" alt="listin" class="img-responsive"></a>
+                                                <div class="feature"><span class="tag-2">Cho Thuê</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>*@
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===== #/NEWS DETAILS =====-->
+    <!--===== CONTACT =====-->
+    <section id="contact" class="bg-color-red">
+        <div class="container">
+            <div class="row">
+                @*<div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                        <div class="get-tuch">
+                            <i class="icon-telephone114"></i>
+                            <ul>
+                                <li>
+                                    <h4 class="p-font-17">Phone Number</h4>
+                                </li>
+                                <li>
+                                    <p class="p-font-15">+1 900 234 567 - 68</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="get-tech-line"><img src="/Content/humiland/images/get-tuch-line.png" alt="line" /></div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                        <div class="get-tuch">
+                            <i class="icon-icons74"></i>
+                            <ul>
+                                <li>
+                                    <h4 class="p-font-17">Victoria Hall,</h4>
+                                </li>
+                                <li>
+                                    <p class="p-font-15">Idea Homes, australia</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="get-tech-line"><img src="/Content/humiland/images/get-tuch-line.png" alt="line" /></div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                        <div class="get-tuch">
+                            <i class=" icon-icons142"></i>
+                            <ul>
+                                <li>
+                                    <h4 class="p-font-17">Email Address</h4>
+                                </li>
+                                <li>
+                                    <a href="#."><p class="p-font-15">info@ideahomes.com</p></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>*@
+                @Html.Action("Info2", "Home")
+            </div>
+        </div>
+    </section>
+    <!--===== #/CONTACT =====-->
+    <script>
+        var imgs = document.querySelectorAll(".tuilatui img");
+
+        for (var i = 0; i < imgs.length; i++) {
+            imgs[i].style.width = "100%";
+            imgs[i].style.height = "auto";
+        }
+    </script>
+}

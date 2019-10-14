@@ -1,0 +1,210 @@
+﻿@{
+    ViewBag.Title = "Liên Hệ";
+    Layout = "~/Views/Shared/_HumilandLayout.cshtml";
+}
+@*<style>
+        .map, .map-canvas {
+            height: 500px;
+            width: 100%;
+        }
+    </style>*@
+@model IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>
+<!--===== PAGE TITLE =====-->
+<div class="page-title page-main-section" style="background-image: url('../../Content/humiland/images/titlebg-1.jpg');">
+    <div class="container padding-bottom-top-120 text-uppercase text-center">
+        <div class="main-title">
+            <h1>Liên Hệ Chúng Tôi</h1>
+            <div class="line_4"></div>
+            <div class="line_5"></div>
+            <div class="line_6"></div>
+            <a href="/">Trang Chủ</a><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="/lien-he">Liên Hệ</a>
+        </div>
+    </div>
+</div>
+<!--===== #/PAGE TITLE =====-->
+<section id="contact-us">
+    <div class="container">
+        <div class="row padding">
+
+            <div class="col-md-8">
+                <div class="bottom40">
+                    <h2 class="text-uppercase">Gửi Phản Hồi Cho Chúng Tôi <span class="color_red"></span></h2>
+                    <div class="line_1"></div>
+                    <div class="line_2"></div>
+                    <div class="line_3"></div>
+                </div>
+                <div class="agent-p-form p-t-30">
+
+                    <div class="row">
+                        <form id="ContactFormSubmit" class="callus padding-bottom" onsubmit=" return checkStatus()" @*id="contact-form" onSubmit="return false"*@ action="@Url.Action("PhanHoi","Home")" method="post">
+
+                            <div class="form-group">
+                                <div id="result">
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="single-query">
+                                    <input type="text" class="keyword-input" placeholder="Tên" name="name" id="name">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="single-query">
+                                    <input type="text" class="keyword-input" placeholder="Số Điện Thoại" name="phone" id="phone">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="single-query">
+                                    <input type="email" class="keyword-input" placeholder="E - mail" name="email" id="email">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="single-query">
+                                    <textarea name="message" placeholder="Tin nhắn" id="message" class="fix-width"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="button" class="btn_fill" id="btn_submit" name="btn_submit" onclick="checkStatus()">Gửi</button>
+                            </div>
+                            <script type="text/javascript">
+                                function checkStatus() {
+                                      if (confirm("Bạn có chắc chắn không ?")) {
+                                          @*$('#contactForm').ajaxForm({
+                                          url: '@Url.Action("PhanHoi", "Home")',
+                                            type: 'post'
+                                        });*@
+                                          document.getElementById("ContactFormSubmit").submit();
+                                        alert("Đã nhận được yêu cầu của bạn.");
+                                        return true;
+                                    } else {
+                                        return false;
+                                    }
+
+                                }
+                            </script>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="bottom40">
+                    <h2 class="text-uppercase">Liên hệ<span class="color_red"> Với Chúng Tôi</span></h2>
+                    <div class="line_1"></div>
+                    <div class="line_2"></div>
+                    <div class="line_3"></div>
+                </div>
+
+                <div class="agent-p-contact p-t-30">
+                    <div class="agetn-contact-2">
+                        <p><i class="icon-telephone114"></i> @Model.Where(p => p.Name.Equals("Số Điện Thoại")).FirstOrDefault().Value</p>
+                        <a href="#.">
+                            <p><i class=" icon-icons142"></i> @Model.Where(p => p.Name.Equals("Địa chỉ Email")).FirstOrDefault().Value</p>
+                        </a>
+                        <a href="/">
+                            <p><i class="icon-browser2"></i>www.humiland.com</p>
+                        </a>
+                        <p><i class="icon-icons74"></i>@Model.Where(p => p.Name.Equals("Address")).FirstOrDefault().Value</p>
+                    </div>
+                    <ul class="socials">
+
+                        @Html.Action("Social", "Home")
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contact">
+        <div id="map">
+        </div>
+    </div>
+    <!-- CONTACT -->
+    <section id="contact" class="bg-color-red">
+        <div class="container">
+            <div class="row">
+                @*@Html.Action("Info2", "Home")*@
+                <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                    <div class="get-tuch">
+                        <i class="icon-telephone114"></i>
+                        <ul>
+                            <li><h4>@Model.Where(p => p.Name.Equals("Số Điện Thoại")).FirstOrDefault().Name</h4></li>
+                            <li><p> @Model.Where(p => p.Name.Equals("Số Điện Thoại")).FirstOrDefault().Value </p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                    <div class="get-tuch">
+                        <i class="icon-icons74"></i>
+                        <ul>
+                            <li>
+                                <h4>@Model.Where(p => p.Name.Equals("HUMILAND")).FirstOrDefault().Name</h4>
+                            </li>
+                            <li><p>@Model.Where(p => p.Name.Equals("Address")).FirstOrDefault().Value</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                    <div class="get-tuch">
+                        <i class="icon-icons142"></i>
+                        <ul>
+                            <li><h4 class="p-font-17">@Model.Where(p => p.Name.Equals("Địa chỉ Email")).FirstOrDefault().Name</h4></li>
+                            <li><a href="#."><p>@Model.Where(p => p.Name.Equals("Địa chỉ Email")).FirstOrDefault().Value</p></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+     var map;
+    var bounds;
+        var lat = '10.827701';//lat lng search google map theo địa chỉ, can thi thay doi sau
+        var lng = '106.684095';
+    @*@if (Model.product.ProductAttributeMappings.Where(p=>p.ProductAttributeId==26).FirstOrDefault().Value!= null)
+    {
+        @:lat = @Model.product.ProductAttributeMappings.Where(p => p.ProductAttributeId == 26).FirstOrDefault().Value;
+    }
+    @if (Model.product.ProductAttributeMappings.Where(p => p.ProductAttributeId == 27).FirstOrDefault().Value != null) {
+        @:lng = @Model.product.ProductAttributeMappings.Where(p => p.ProductAttributeId == 27).FirstOrDefault().Value;
+    }*@
+        var latLng = [{ lat: lat, lng: lng, title: "Humiland" }];
+
+
+    function initMap() {
+        bounds = new google.maps.LatLngBounds();
+        //console.log(latLng)
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: new google.maps.LatLng(lat, lng),
+            zoom: 17,
+            scrollwheel: true,
+            streetViewControl: true,
+            zoomControl: true,
+            mapTypeControl: true,
+            disableDefaultUI: true,
+        });
+
+        var myLatLng = new google.maps.LatLng(latLng[0].lat, latLng[0].lng);
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            //icon: '',
+            title: latLng[0].title
+        });
+        map.setCenter(marker);
+    }
+
+    $(function () {
+        'user strict';
+        initMap();
+    })
+
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCB_VaYVNAVmEkDRGg-iIcGI5U7_-NsMhk&libraries=places&callback=initMap">
+    </script>
+
+</section>
+

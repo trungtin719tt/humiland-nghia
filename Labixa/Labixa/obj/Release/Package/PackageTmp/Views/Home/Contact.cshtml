@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_NoLeftMenu.cshtml";
+}
+@{
+    ViewBag.title = "LILOEDU - Trung Tâm Đào Tạo IoT";
+    ViewBag.keyword = "Iot arduino, board arduino, dao tao, lap trinh, arduino";
+    ViewBag.description = "LILOEDU - Đăng ký học lập trình IoT trên board Arduino.";
+}
+
+<div id="outer">
+    <div id="outer-canvas">
+        <!--Page Content-->
+        <section class="container content">
+            <form class="form-inline contact-form">
+                <div class="row">
+                    <div class="col-sm-5 col-md-4">
+                        <input type="text" class="form-control" value="Name" onblur="if (this.value == '') {this.value = 'Name';}" onfocus="if(this.value == 'Name') {this.value = '';}">
+                        <input type="text" class="form-control" value="Subject" onblur="if (this.value == '') {this.value = 'Subject';}" onfocus="if(this.value == 'Subject') {this.value = '';}">
+                        <input type="text" class="form-control" value="E-mail" onblur="if (this.value == '') {this.value = 'E-mail';}" onfocus="if(this.value == 'E-mail') {this.value = '';}">
+                    </div>
+                    <div class="col-sm-7 col-md-8">
+                        <textarea class="form-control" onblur="if (this.value == '') {this.value = 'Message';}" onfocus="if(this.value == 'Message') {this.value = '';}">Message</textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="submit" class="button btn-cool btn-lg pull-right">Send message</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!-- //end Page Content -->
+    </div>
+</div>
+

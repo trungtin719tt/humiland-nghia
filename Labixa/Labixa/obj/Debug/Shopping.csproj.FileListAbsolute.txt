@@ -1,0 +1,539 @@
+F:\Droom\Labixa\Labixa\obj\Debug\Shopping.csprojResolveAssemblyReference.cache
+F:\Droom\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+F:\Droom\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+F:\Droom\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+F:\Droom\Labixa\Labixa\obj\Debug\Shopping.csproj.GenerateResource.Cache
+F:\Droom\Labixa\Labixa\bin\Labixa.dll.config
+F:\Droom\Labixa\Labixa\bin\Labixa.dll
+F:\Droom\Labixa\Labixa\bin\Labixa.pdb
+F:\Droom\Labixa\Labixa\bin\en\Labixa.resources.dll
+F:\Droom\Labixa\Labixa\bin\vi\Labixa.resources.dll
+F:\Droom\Labixa\Labixa\bin\Outsourcing.Core.dll
+F:\Droom\Labixa\Labixa\bin\Outsourcing.Data.dll
+F:\Droom\Labixa\Labixa\bin\Outsourcing.Service.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.Helpers.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.Mvc.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.Optimization.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.WebPages.Deployment.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.WebPages.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.WebPages.Razor.dll
+F:\Droom\Labixa\Labixa\bin\WebGrease.dll
+F:\Droom\Labixa\Labixa\bin\Outsourcing.Core.pdb
+F:\Droom\Labixa\Labixa\bin\Outsourcing.Data.pdb
+F:\Droom\Labixa\Labixa\bin\Outsourcing.Service.pdb
+F:\Droom\Labixa\Labixa\bin\Autofac.xml
+F:\Droom\Labixa\Labixa\bin\Autofac.Integration.Mvc.xml
+F:\Droom\Labixa\Labixa\bin\AutoMapper.xml
+F:\Droom\Labixa\Labixa\bin\EntityFramework.xml
+F:\Droom\Labixa\Labixa\bin\EntityFramework.SqlServer.xml
+F:\Droom\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Droom\Labixa\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Droom\Labixa\Labixa\bin\PagedList.xml
+F:\Droom\Labixa\Labixa\bin\PagedList.Mvc.xml
+F:\Droom\Labixa\Labixa\bin\System.Web.Helpers.xml
+F:\Droom\Labixa\Labixa\bin\System.Web.Mvc.xml
+F:\Droom\Labixa\Labixa\bin\System.Web.WebPages.xml
+F:\Droom\Labixa\Labixa\bin\System.Web.WebPages.Deployment.xml
+F:\Droom\Labixa\Labixa\bin\System.Web.WebPages.Razor.xml
+F:\Droom\Labixa\Labixa\bin\System.Web.Optimization.xml
+F:\Droom\Labixa\Labixa\bin\Newtonsoft.Json.xml
+F:\Droom\Labixa\Labixa\bin\Antlr3.Runtime.pdb
+F:\Droom\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Droom\Labixa\Labixa\bin\Microsoft.Owin.xml
+F:\Droom\Labixa\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.xml
+F:\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.Google.xml
+F:\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Droom\Labixa\Labixa\obj\Debug\en\Labixa.resources.dll
+F:\Droom\Labixa\Labixa\obj\Debug\vi\Labixa.resources.dll
+F:\Droom\Labixa\Labixa\obj\Debug\Labixa.dll
+F:\Droom\Labixa\Labixa\obj\Debug\Labixa.pdb
+F:\Droom\Labixa\Labixa\bin\System.ComponentModel.DataAnnotations.dll
+F:\Droom\Labixa\Labixa\bin\System.Configuration.dll
+F:\Droom\Labixa\Labixa\bin\System.Data.DataSetExtensions.dll
+F:\Droom\Labixa\Labixa\bin\System.Data.dll
+F:\Droom\Labixa\Labixa\bin\System.dll
+F:\Droom\Labixa\Labixa\bin\System.Drawing.dll
+F:\Droom\Labixa\Labixa\bin\System.EnterpriseServices.dll
+F:\Droom\Labixa\Labixa\bin\System.IdentityModel.dll
+F:\Droom\Labixa\Labixa\bin\System.Net.Http.dll
+F:\Droom\Labixa\Labixa\bin\System.Net.Http.WebRequest.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.Abstractions.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.ApplicationServices.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.DynamicData.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.Entity.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.Extensions.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.Routing.dll
+F:\Droom\Labixa\Labixa\bin\System.Web.Services.dll
+F:\Droom\Labixa\Labixa\bin\System.Windows.Forms.dll
+F:\Droom\Labixa\Labixa\bin\System.Xml.dll
+F:\Droom\Labixa\Labixa\bin\System.Xml.Linq.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Labixa.dll.config
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Labixa.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Labixa.pdb
+D:\Cong Ty\Droom\Labixa\Labixa\bin\en\Labixa.resources.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\vi\Labixa.resources.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Outsourcing.Core.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Outsourcing.Data.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Outsourcing.Service.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.ComponentModel.DataAnnotations.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Configuration.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Data.DataSetExtensions.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Data.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Drawing.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.EnterpriseServices.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.IdentityModel.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Net.Http.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Net.Http.WebRequest.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.Abstractions.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.ApplicationServices.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.DynamicData.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.Entity.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.Extensions.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.Helpers.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.Mvc.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.Optimization.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.Routing.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.Services.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.WebPages.Deployment.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.WebPages.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.WebPages.Razor.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Windows.Forms.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Xml.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Xml.Linq.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\WebGrease.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Outsourcing.Core.pdb
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Outsourcing.Data.pdb
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Outsourcing.Service.pdb
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Autofac.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Autofac.Integration.Mvc.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\AutoMapper.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\EntityFramework.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\EntityFramework.SqlServer.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\PagedList.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\PagedList.Mvc.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.Helpers.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.Mvc.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.WebPages.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.WebPages.Deployment.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.WebPages.Razor.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\System.Web.Optimization.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Newtonsoft.Json.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Antlr3.Runtime.pdb
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Microsoft.Owin.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.Google.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Debug\Shopping.csprojResolveAssemblyReference.cache
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Debug\Shopping.csproj.GenerateResource.Cache
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Debug\en\Labixa.resources.dll
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Debug\vi\Labixa.resources.dll
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Debug\Labixa.dll
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Debug\Labixa.pdb
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Outsourcing.Core.dll.config
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Outsourcing.Data.dll.config
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Labixa.dll.config
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Labixa.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Labixa.pdb
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\en\Labixa.resources.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\vi\Labixa.resources.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Outsourcing.Core.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Outsourcing.Data.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Outsourcing.Service.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.ComponentModel.DataAnnotations.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Configuration.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Data.DataSetExtensions.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Data.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Drawing.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.EnterpriseServices.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.IdentityModel.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Net.Http.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Net.Http.WebRequest.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.Abstractions.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.ApplicationServices.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.DynamicData.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.Entity.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.Extensions.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.Helpers.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.Mvc.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.Optimization.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.Routing.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.Services.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.WebPages.Deployment.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.WebPages.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.WebPages.Razor.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Windows.Forms.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Xml.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Xml.Linq.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\WebGrease.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Outsourcing.Core.pdb
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Outsourcing.Core.dll.config
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Outsourcing.Data.pdb
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Outsourcing.Data.dll.config
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Outsourcing.Service.pdb
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Autofac.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Autofac.Integration.Mvc.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\AutoMapper.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\EntityFramework.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\EntityFramework.SqlServer.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\PagedList.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\PagedList.Mvc.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.Helpers.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.Mvc.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.WebPages.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.WebPages.Deployment.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.WebPages.Razor.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\System.Web.Optimization.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Newtonsoft.Json.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Antlr3.Runtime.pdb
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Microsoft.Owin.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Google.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\obj\Debug\Shopping.csprojResolveAssemblyReference.cache
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\obj\Debug\Shopping.csproj.GenerateResource.Cache
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\obj\Debug\en\Labixa.resources.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\obj\Debug\vi\Labixa.resources.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\obj\Debug\Labixa.dll
+D:\Cong Ty\humiland\humiland\Labixa\Labixa\obj\Debug\Labixa.pdb
+E:\Project\Humiland\Labixa\Labixa\bin\Labixa.dll.config
+E:\Project\Humiland\Labixa\Labixa\bin\Labixa.dll
+E:\Project\Humiland\Labixa\Labixa\bin\Labixa.pdb
+E:\Project\Humiland\Labixa\Labixa\bin\en\Labixa.resources.dll
+E:\Project\Humiland\Labixa\Labixa\bin\vi\Labixa.resources.dll
+E:\Project\Humiland\Labixa\Labixa\bin\Outsourcing.Core.dll
+E:\Project\Humiland\Labixa\Labixa\bin\Outsourcing.Data.dll
+E:\Project\Humiland\Labixa\Labixa\bin\Outsourcing.Service.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.ComponentModel.DataAnnotations.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Configuration.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Data.DataSetExtensions.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Data.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Drawing.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.EnterpriseServices.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.IdentityModel.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Net.Http.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Net.Http.WebRequest.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.Abstractions.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.ApplicationServices.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.DynamicData.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.Entity.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.Extensions.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.Helpers.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.Mvc.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.Optimization.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.Routing.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.Services.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.WebPages.Deployment.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.WebPages.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.WebPages.Razor.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Windows.Forms.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Xml.dll
+E:\Project\Humiland\Labixa\Labixa\bin\System.Xml.Linq.dll
+E:\Project\Humiland\Labixa\Labixa\bin\WebGrease.dll
+E:\Project\Humiland\Labixa\Labixa\bin\Outsourcing.Core.pdb
+E:\Project\Humiland\Labixa\Labixa\bin\Outsourcing.Data.pdb
+E:\Project\Humiland\Labixa\Labixa\bin\Outsourcing.Service.pdb
+E:\Project\Humiland\Labixa\Labixa\bin\Autofac.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Autofac.Integration.Mvc.xml
+E:\Project\Humiland\Labixa\Labixa\bin\AutoMapper.xml
+E:\Project\Humiland\Labixa\Labixa\bin\EntityFramework.xml
+E:\Project\Humiland\Labixa\Labixa\bin\EntityFramework.SqlServer.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Project\Humiland\Labixa\Labixa\bin\PagedList.xml
+E:\Project\Humiland\Labixa\Labixa\bin\PagedList.Mvc.xml
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.Helpers.xml
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.Mvc.xml
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.WebPages.xml
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.WebPages.Deployment.xml
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.WebPages.Razor.xml
+E:\Project\Humiland\Labixa\Labixa\bin\System.Web.Optimization.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Newtonsoft.Json.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Antlr3.Runtime.pdb
+E:\Project\Humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Microsoft.Owin.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Google.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Project\Humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Project\Humiland\Labixa\Labixa\obj\Debug\Shopping.csprojResolveAssemblyReference.cache
+E:\Project\Humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+E:\Project\Humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+E:\Project\Humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+E:\Project\Humiland\Labixa\Labixa\obj\Debug\Shopping.csproj.GenerateResource.Cache
+E:\Project\Humiland\Labixa\Labixa\obj\Debug\en\Labixa.resources.dll
+E:\Project\Humiland\Labixa\Labixa\obj\Debug\vi\Labixa.resources.dll
+E:\Project\Humiland\Labixa\Labixa\obj\Debug\Labixa.dll
+E:\Project\Humiland\Labixa\Labixa\obj\Debug\Labixa.pdb
+D:\tin\works\humiland\Labixa\Labixa\obj\Debug\Shopping.csprojResolveAssemblyReference.cache
+D:\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+D:\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+D:\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+D:\tin\works\humiland\Labixa\Labixa\obj\Debug\Shopping.csproj.GenerateResource.Cache
+D:\tin\works\humiland\Labixa\Labixa\obj\Debug\Shopping.csproj.CoreCompileInputs.cache
+D:\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.dll
+D:\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.pdb
+D:\tin\works\humiland\Labixa\Labixa\obj\Debug\en\Labixa.resources.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\Labixa.dll.config
+D:\tin\works\humiland\Labixa\Labixa\bin\Labixa.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\Labixa.pdb
+D:\tin\works\humiland\Labixa\Labixa\bin\en\Labixa.resources.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\vi\Labixa.resources.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Core.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Data.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Service.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.ComponentModel.DataAnnotations.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Configuration.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Data.DataSetExtensions.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Data.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Drawing.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.EnterpriseServices.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.IdentityModel.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Net.Http.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Net.Http.WebRequest.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.Abstractions.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.ApplicationServices.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.DynamicData.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.Entity.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.Extensions.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.Helpers.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.Mvc.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.Optimization.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.Routing.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.Services.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.Deployment.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.Razor.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Windows.Forms.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Xml.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Xml.Linq.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\WebGrease.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Core.pdb
+D:\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Core.dll.config
+D:\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Data.pdb
+D:\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Data.dll.config
+D:\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Service.pdb
+D:\tin\works\humiland\Labixa\Labixa\bin\Autofac.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Autofac.Integration.Mvc.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\AutoMapper.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\EntityFramework.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\EntityFramework.SqlServer.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\PagedList.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\PagedList.Mvc.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.Helpers.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.Mvc.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.Deployment.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.Razor.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\System.Web.Optimization.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Newtonsoft.Json.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Antlr3.Runtime.pdb
+D:\tin\works\humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Facebook.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Google.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Twitter.xml
+D:\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\tin\works\humiland\Labixa\Labixa\obj\Debug\vi\Labixa.resources.dll
+D:\tin\works\humiland\Labixa\Labixa\bin\EXIFextractor.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Labixa.dll.config
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Labixa.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Labixa.pdb
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\en\Labixa.resources.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\vi\Labixa.resources.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\EXIFextractor.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Core.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Data.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Service.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.ComponentModel.DataAnnotations.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Configuration.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Data.DataSetExtensions.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Data.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Drawing.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.EnterpriseServices.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.IdentityModel.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Net.Http.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Net.Http.WebRequest.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Abstractions.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.ApplicationServices.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.DynamicData.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Entity.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Extensions.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Helpers.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Mvc.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Optimization.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Routing.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Services.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.Deployment.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.Razor.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Windows.Forms.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Xml.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Xml.Linq.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\WebGrease.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Core.pdb
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Core.dll.config
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Data.pdb
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Data.dll.config
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Service.pdb
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Autofac.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Autofac.Integration.Mvc.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\AutoMapper.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\EntityFramework.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\EntityFramework.SqlServer.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\PagedList.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\PagedList.Mvc.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Helpers.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Mvc.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.Deployment.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.Razor.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Optimization.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Newtonsoft.Json.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Antlr3.Runtime.pdb
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Facebook.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Google.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Twitter.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Shopping.csprojResolveAssemblyReference.cache
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Shopping.csproj.GenerateResource.cache
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Shopping.csproj.CoreCompileInputs.cache
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\en\Labixa.resources.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\vi\Labixa.resources.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Shopping.csproj.CopyComplete
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.dll
+F:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.pdb
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Labixa.dll.config
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Labixa.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Labixa.pdb
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\en\Labixa.resources.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\vi\Labixa.resources.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\EXIFextractor.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Core.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Data.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Service.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.ComponentModel.DataAnnotations.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Configuration.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Data.DataSetExtensions.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Data.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Drawing.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.EnterpriseServices.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.IdentityModel.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Net.Http.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Net.Http.WebRequest.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Abstractions.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.ApplicationServices.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.DynamicData.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Entity.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Extensions.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Helpers.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Mvc.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Optimization.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Routing.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Services.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.Deployment.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.Razor.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Windows.Forms.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Xml.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Xml.Linq.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\WebGrease.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Core.pdb
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Data.pdb
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Outsourcing.Service.pdb
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Autofac.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Autofac.Integration.Mvc.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\AutoMapper.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\EntityFramework.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\EntityFramework.SqlServer.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\PagedList.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\PagedList.Mvc.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Helpers.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Mvc.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.Deployment.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.WebPages.Razor.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\System.Web.Optimization.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Newtonsoft.Json.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Antlr3.Runtime.pdb
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Facebook.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Google.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.Twitter.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Shopping.csprojResolveAssemblyReference.cache
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Shopping.csproj.GenerateResource.Cache
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\en\Labixa.resources.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\vi\Labixa.resources.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.dll
+I:\chuyển dữ lieuej\tin\works\humiland\Labixa\Labixa\obj\Debug\Labixa.pdb

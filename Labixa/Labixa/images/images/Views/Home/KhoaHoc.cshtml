@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.Vendor>
+    @using Outsourcing.Core.Common
+@if (Model.Any() && Model != null)
+{
+    foreach (var item in Model.OrderBy(p=>p.Type).Take(3))
+    {
+    <article class="span4 services-caps">
+        <div class="xs-title">
+            <h4 class="services-title">@item.Name</h4>
+        </div>
+        <div class="services-icon">
+            <a href="/khoa-hoc/@StringConvert.ConvertShortName(item.Name)-@item.Id" style="color:white">
+            Đăng Ký
+            </a>
+        </div>
+        <ul class="nm khoahoc text-justify">
+            @slitString.TruncateAtWord(item.Description, 200)
+        </ul>
+    </article>
+    }
+        @*<article class="span4 services-caps">
+            <h4 class="services-title">Mobile</h4>
+            <div class="services-icon services-mobile"></div>
+            <ul class="nm">
+                <li>iPad/iPhone</li>
+                <li>Android</li>
+                <li>Windows Mobile</li>
+                <li>Blackberry</li>
+            </ul>
+        </article>
+                <article class="span4 services-caps">
+                    <h4 class="services-title">Interactive</h4>
+                    <div class="services-icon services-interactive"></div>
+                    <ul class="nm">
+                        <li>Applications</li>
+                        <li>Advergaming</li>
+                        <li>Videogames</li>
+                        <li>Presentations</li>
+                        <li>E-learning</li>
+                        <li>3D Production</li>
+                    </ul>
+                </article>*@
+}

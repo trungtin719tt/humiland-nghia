@@ -1,0 +1,241 @@
+﻿img {
+    max-width: 100%;
+}
+
+* {
+    font-family: "Open Sans";
+}
+
+.services-caps .services-icon {
+    background-color: #c3c7d2;
+}
+
+.services-caps {
+    background-color: #dcdfe6;
+}
+
+    .services-caps:hover .services-icon {
+    }
+
+.inner {
+    padding-bottom: 50px;
+    padding-top: 0;
+}
+
+ul.nm {
+    line-height: 25px;
+    width: 100%;
+    padding: 15px;
+}
+
+.services-caps ul li {
+    line-height: 15px;
+}
+
+.services-caps ul li {
+    font-size: 1.2em;
+}
+
+.services-caps:hover .services-icon {
+    background-color: #ff933e;
+}
+
+.images {
+    background-size: 100% 100%;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.blog-content {
+    margin-top: 50px;
+}
+
+.navbar.fixed {
+    background: #000000;
+}
+
+.row-fluid {
+    width: 93%;
+    margin: 0 auto;
+}
+
+.services-caps .services-title {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 7em;
+}
+
+#team-member {
+    padding: 0;
+    background: url(/images/background.png);
+}
+
+.light-wrapper, .services2, #contacts, #about {
+    background: url(/images/background.png);
+}
+
+ul {
+    padding: 0 0 0 0;
+}
+
+.btnsend {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+@media (max-width: 1190px) and (min-width: 768px) {
+    .row-fluid .span4 {
+        width: 31.491712707182323%;
+    }
+
+    .row-fluid [class*="span"] {
+        float: left;
+    }
+
+    .services-caps:hover .services-icon {
+        top: 95%;
+    }
+
+    .services-caps:hover .services-icon {
+        margin: 7% 0px 0px -20%;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 770px) {
+    .services-caps .services-icon {
+        top: 200px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 400px) {
+    .services-caps .services-icon {
+        top: 70px;
+    }
+}
+
+.slick-initialized .slick-slide {
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.khoahocGroup .owl-stage {
+    margin-bottom: 20px;
+}
+/*@media(max-width:1190px) {
+    .services-caps .services-icon {
+        top:70px;
+    }
+    .services-caps:hover .services-icon {
+        top: 83%;
+    }
+    .services-caps:hover .services-icon {
+            margin: 7% 0px 0px -6%;
+    }
+}*/
+.pagination ul > li > a {
+    background: #acacac;
+}
+
+    .pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span {
+        background: #ffcb08;
+    }
+
+#about a {
+    color: #ffcb08;
+}
+
+img {
+    max-width: 100%;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    border-color: #337ab7;
+}
+
+    .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+        background: #ffcb08;
+    }
+
+        .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+            border-color: #ffcb08;
+        }
+
+.body-content {
+    min-height: 700px;
+}
+
+.owl-stage-outer {
+}
+
+@media(max-width:768px) {
+    .services-caps .services-title {
+        height: 3em;
+    }
+    .services-caps .services-icon{
+        top: 85px;
+    }
+    .xs-title{
+          height: 70px;
+          margin-bottom: 50px;
+          overflow: hidden;
+}
+    .services-caps{
+        margin-bottom: 30px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+
+    #blog .blog img {
+        margin-top: 30px;
+    }
+
+    .row-fluid:last-child [class*="span"] {
+        margin-bottom: 50px;
+    }
+
+    .inner {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .blog-content {
+        margin-top: 0;
+    }
+
+    .signup-root h4 {
+        text-align: center;
+    }
+
+    .btnsend {
+        text-align: center;
+    }
+
+    .services-caps {
+        padding: 0;
+    }
+
+    blockquote:before, blockquote:after {
+        content: "";
+    }
+
+    blockquote {
+        padding: 0;
+        margin: 0;
+    }
+
+    #nghenghiep {
+        margin-bottom: 0;
+    }
+
+    .navbar .social.naked {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+}

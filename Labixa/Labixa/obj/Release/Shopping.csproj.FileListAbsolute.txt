@@ -1,0 +1,169 @@
+F:\Droom\Labixa\Labixa\obj\Release\Shopping.csprojResolveAssemblyReference.cache
+F:\Droom\Labixa\Labixa\obj\Release\Labixa.App_Data.Resources.resources
+F:\Droom\Labixa\Labixa\obj\Release\Labixa.App_Data.Resources.en.resources
+F:\Droom\Labixa\Labixa\obj\Release\Labixa.App_Data.Resources.vi.resources
+F:\Droom\Labixa\Labixa\obj\Release\Shopping.csproj.GenerateResource.Cache
+F:\Droom\Labixa\Labixa\bin\Release\Labixa.dll.config
+F:\Droom\Labixa\Labixa\bin\Release\Labixa.dll
+F:\Droom\Labixa\Labixa\bin\Release\Labixa.pdb
+F:\Droom\Labixa\Labixa\bin\Release\en\Labixa.resources.dll
+F:\Droom\Labixa\Labixa\bin\Release\vi\Labixa.resources.dll
+F:\Droom\Labixa\Labixa\bin\Release\Antlr3.Runtime.dll
+F:\Droom\Labixa\Labixa\bin\Release\Autofac.dll
+F:\Droom\Labixa\Labixa\bin\Release\Autofac.Integration.Mvc.dll
+F:\Droom\Labixa\Labixa\bin\Release\AutoMapper.dll
+F:\Droom\Labixa\Labixa\bin\Release\ElFinder.Net.dll
+F:\Droom\Labixa\Labixa\bin\Release\EntityFramework.dll
+F:\Droom\Labixa\Labixa\bin\Release\EntityFramework.SqlServer.dll
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.AspNet.Identity.Core.dll
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Cookies.dll
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Facebook.dll
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Google.dll
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.OAuth.dll
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Twitter.dll
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Web.Infrastructure.dll
+F:\Droom\Labixa\Labixa\bin\Release\Outsourcing.Core.dll
+F:\Droom\Labixa\Labixa\bin\Release\Outsourcing.Data.dll
+F:\Droom\Labixa\Labixa\bin\Release\Outsourcing.Service.dll
+F:\Droom\Labixa\Labixa\bin\Release\Owin.dll
+F:\Droom\Labixa\Labixa\bin\Release\PagedList.dll
+F:\Droom\Labixa\Labixa\bin\Release\PagedList.Mvc.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.Helpers.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.Mvc.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.Optimization.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.WebPages.Deployment.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.WebPages.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.WebPages.Razor.dll
+F:\Droom\Labixa\Labixa\bin\Release\WebGrease.dll
+F:\Droom\Labixa\Labixa\bin\Release\Outsourcing.Core.pdb
+F:\Droom\Labixa\Labixa\bin\Release\Outsourcing.Data.pdb
+F:\Droom\Labixa\Labixa\bin\Release\Outsourcing.Service.pdb
+F:\Droom\Labixa\Labixa\bin\Release\Autofac.xml
+F:\Droom\Labixa\Labixa\bin\Release\Autofac.Integration.Mvc.xml
+F:\Droom\Labixa\Labixa\bin\Release\AutoMapper.xml
+F:\Droom\Labixa\Labixa\bin\Release\EntityFramework.xml
+F:\Droom\Labixa\Labixa\bin\Release\EntityFramework.SqlServer.xml
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.AspNet.Identity.Core.xml
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Droom\Labixa\Labixa\bin\Release\PagedList.xml
+F:\Droom\Labixa\Labixa\bin\Release\PagedList.Mvc.xml
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.Helpers.xml
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.Mvc.xml
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.WebPages.xml
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.WebPages.Deployment.xml
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.WebPages.Razor.xml
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.Optimization.xml
+F:\Droom\Labixa\Labixa\bin\Release\Newtonsoft.Json.xml
+F:\Droom\Labixa\Labixa\bin\Release\Antlr3.Runtime.pdb
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.xml
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.xml
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Facebook.xml
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Cookies.xml
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.OAuth.xml
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Google.xml
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Twitter.xml
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Droom\Labixa\Labixa\obj\Release\en\Labixa.resources.dll
+F:\Droom\Labixa\Labixa\obj\Release\vi\Labixa.resources.dll
+F:\Droom\Labixa\Labixa\obj\Release\Labixa.dll
+F:\Droom\Labixa\Labixa\obj\Release\Labixa.pdb
+F:\Droom\Labixa\Labixa\bin\Release\Microsoft.CSharp.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.ComponentModel.DataAnnotations.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Configuration.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Data.DataSetExtensions.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Data.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Drawing.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.EnterpriseServices.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.IdentityModel.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Net.Http.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Net.Http.WebRequest.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.Abstractions.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.ApplicationServices.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.DynamicData.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.Entity.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.Extensions.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.Routing.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Web.Services.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Windows.Forms.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Xml.dll
+F:\Droom\Labixa\Labixa\bin\Release\System.Xml.Linq.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Labixa.dll.config
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Labixa.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Labixa.pdb
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\en\Labixa.resources.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\vi\Labixa.resources.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Antlr3.Runtime.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Autofac.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Autofac.Integration.Mvc.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\AutoMapper.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\ElFinder.Net.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\EntityFramework.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\EntityFramework.SqlServer.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.CSharp.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Cookies.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Facebook.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Google.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.OAuth.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Twitter.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Newtonsoft.Json.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Outsourcing.Core.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Outsourcing.Data.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Outsourcing.Service.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Owin.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\PagedList.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\PagedList.Mvc.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\System.Web.Razor.dll
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Outsourcing.Core.pdb
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Outsourcing.Data.pdb
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Outsourcing.Service.pdb
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Autofac.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Autofac.Integration.Mvc.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\AutoMapper.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\EntityFramework.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\EntityFramework.SqlServer.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\PagedList.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\PagedList.Mvc.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\System.Web.Helpers.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\System.Web.Mvc.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\System.Web.WebPages.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\System.Web.WebPages.Deployment.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\System.Web.WebPages.Razor.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\System.Web.Optimization.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Newtonsoft.Json.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Antlr3.Runtime.pdb
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Facebook.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Cookies.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.OAuth.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Google.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.Twitter.xml
+D:\Cong Ty\Droom\Labixa\Labixa\bin\Release\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Release\Shopping.csprojResolveAssemblyReference.cache
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Release\Labixa.App_Data.Resources.resources
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Release\Labixa.App_Data.Resources.en.resources
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Release\Labixa.App_Data.Resources.vi.resources
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Release\Shopping.csproj.GenerateResource.Cache
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Release\en\Labixa.resources.dll
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Release\vi\Labixa.resources.dll
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Release\Labixa.dll
+D:\Cong Ty\Droom\Labixa\Labixa\obj\Release\Labixa.pdb

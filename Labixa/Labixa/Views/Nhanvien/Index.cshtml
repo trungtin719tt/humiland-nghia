@@ -1,0 +1,54 @@
+﻿
+@{
+    Layout = null;
+}
+@model IEnumerable<Outsourcing.Data.Models.InventoryLog>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/humiland/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+    <a href="/Nhanvien/Index" class="btn btn-info">Điểm danh</a><br />
+    <a href="/Nhanvien/Danhsach" class="btn btn-warning">Danh Sách Nhân Viên</a><br />
+    <div>
+        @if (Model.Any() && Model != null)
+        {
+
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <td>Tên</td>
+                        <td>Mã Nhân Viên</td>
+                        <td>Ngày Giờ</td>
+                        <td>Trạng thái</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Inventory.Name</td>
+                            <td>@item.Inventory.Note</td>
+                            <td>@item.DateCreated</td>
+                            @if (item.IsImport)
+                            {
+                                <td>Trong phòng</td>
+                            }
+                            else
+                            {
+                                <td>Ra ngoài</td>
+
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</body>
+</html>

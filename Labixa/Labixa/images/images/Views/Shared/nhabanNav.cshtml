@@ -1,0 +1,61 @@
+﻿@model Labixa.Models.MenuModelsView
+@using Outsourcing.Core.Common
+@if (Model != null)
+{
+    <div class="col-menu col-md-4">
+        <h5 class="title">DANH SÁCH NHÀ ĐẤT</h5>
+        <div class="col-menu col-md-6">
+            <div class="content">
+                <ul class="menu-col">
+                    @{int half = Model.listCategory.Count()/2; }
+                    @foreach (var item in Model.listCategory.Take(half))
+                    {
+                        <li>
+                            <a href="/cho-ban/@item.Slug">
+                                @item.Name
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="col-menu col-md-6">
+
+            <div class="content">
+                <ul class="menu-col">
+                    @foreach (var item in Model.listCategory.Skip(half).Take(11))
+                {
+                        <li>
+                            <a href="/cho-ban/@item.Slug">
+                                @item.Name
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-menu col-md-8">
+        <div class="row">
+            <div id="nav_slider" class="owl-carousel">
+                @if (Model.listProduct.Any() && Model.listProduct != null)
+                {
+                    foreach (var item in Model.listProduct.Where(p => !p.Product.Deleted))
+                    {
+                        <div class="item">
+                            <div class="image bottom15">
+                                <a href="/san-pham/@item.Product.Slug"><img src="@item.Product.ProductPictureMappings.FirstOrDefault().Picture.Url" alt="Featured Property"/></a>
+                                <span class="nav_tag yellow text-uppercase">Cho bán</span>
+                            </div>
+                            <h4><a href="/san-pham/@item.Product.Slug">@slitString.TruncateAtWord(item.Product.Name, 20)</a></h4>
+                            <p>
+                                @slitString.TruncateAtWord(item.Product.ProductAttributeMappings.Where(p => p.ProductAttributeId == 18).FirstOrDefault().Value, 70)
+                            </p>
+                            <p>Giá: @item.Product.OrginalPrice.ToString("#,##0") VND</p>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+}

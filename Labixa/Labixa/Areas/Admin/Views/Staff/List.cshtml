@@ -1,0 +1,77 @@
+﻿@using Outsourcing.Core
+@model IEnumerable<Outsourcing.Data.Models.Product>
+    @{
+    ViewBag.Title = "Danh sách sản phẩm đã tạo";
+    }
+    @section scripts{
+    <script src="~/Content/ckeditor/ckeditor.js"></script>
+    <script src="~/Content/ckeditor/config.js"></script>
+    }
+
+    <div class="page-content">
+        <div class="row">
+            <div class="col-xs-12">
+
+                <div class="alert alert-block alert-info">
+                    Danh sách bất động sản
+                </div>
+                <div class="table-responsive">
+                    <table id="VendorTable" class="table table-bordered table-striped table-fixed-header">
+                        <thead>
+                            <tr role="row">
+                                <th>Tên SP</th>
+                                <th>Quận</th>
+                                <th>Loại</th>
+                                <th>Giá</th>
+                                <th>Ngày Tạo</th>
+                                <th>Hiển thị</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody role="alert" aria-live="polite" aria-relevant="all">
+                            @{int count = 0;}
+                            @foreach (var item in Model.Where(p=>p.Name!=null))
+                            {
+                            count++;
+                            <tr class="odd">
+                                <td class=" sorting_1">@count</td>
+                                <td class="  "><a href="/san-pham/@item.Slug" target="_blank">@item.Name</a></td>
+                                <td class="">@item.ProductCategoryMappings.FirstOrDefault().ProductCategory.Name</td>
+                                <td>
+                                    @if (item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 24).FirstOrDefault().Value.ToLower().Equals("true"))
+                                    {
+                                    <label class="property-list-list-label">Cho Bán</label>
+                                    }
+                                    else
+                                    {
+                                    <label class="property-list-list-label">Cho Thuê</label>
+                                    }
+                                </td>
+                                <td class="">@item.OrginalPrice.ToString("#,##0")</td>
+                                <td class=" ">@String.Format("{0:dd/MM/yyyy HH:MM}", item.DateCreated)</td>
+                                <td class="  ">
+                                    @if (!item.IsPublic)
+                                    {
+
+                                    <span class="label label-sm label-warning">Đang ẩn</span>
+                                    }
+                                    else
+                                    {
+
+                                    <span class="label label-sm label-success">Hiển thị</span>
+                                    }
+                                </td>
+
+                            </tr>
+                            }
+
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>

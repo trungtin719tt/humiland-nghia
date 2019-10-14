@@ -1,0 +1,88 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>
+@using Outsourcing.Core.Common
+@if (Model.Any() && Model != null)
+{
+    <style>
+        .images {
+            background-image:url('@ViewBag.image');
+        }
+    </style>
+<section class="services-5 images">
+
+    <!--======= SERVICES =========-->
+    <div class="services">
+        <div class="container">
+            <h2 style="text-align:center; color:white">Học Viên Thành Công</h2>
+            <p class="pull-center">
+                <span>______________</span>
+                <span>&#9825;</span>
+                <span>______________</span>
+            </p>
+            <ul class="row hocvienslick">
+                @foreach (var item in Model)
+                {
+
+                <!--======= HOC VIEN =========-->
+                <li class="">
+                    <div class="icon">
+                        <img src="@item.Value" />
+                    </div>
+                    <div class="ser-inner">
+                        <p>
+                            @Html.Raw(slitString.TruncateAtWord(item.Description, 79))
+                        </p>
+                    </div>
+                </li>
+                }
+
+                <!--======= SERVICES =========-->
+                @*<li class="">
+            <div class="icon"><img src="/Content/droom2/images/icon-2.png" alt=""> </div>
+            <div class="ser-inner">
+                <h4>No Worries Warranty</h4>
+                <p>
+                    auctor, nisi warm elit conequat ipsum, nec nisi
+                    Gem quis bibendum auctor omera, nisi
+                    biendum auctor, nisi warm
+                </p>
+
+            </div>
+        </li>
+
+        <!--======= SERVICES =========-->
+        <li class="">
+            <div class="icon"><img src="/Content/droom2/images/icon-3.png" alt=""> </div>
+            <div class="ser-inner">
+                <h4>Friendly Support</h4>
+                <p>
+                    auctor, nisi warm elit conequat ipsum, nec nisi
+                    Gem quis bibendum auctor omera, nisi
+                    biendum auctor, nisi warm
+                </p>
+
+            </div>
+        </li>
+
+        <!--======= SERVICES =========-->
+        <li class="">
+            <div class="icon"><img src="/Content/droom2/images/icon-4.png" alt=""> </div>
+            <div class="ser-inner">
+                <h4>Friendly Support</h4>
+                <p>
+                    auctor, nisi warm elit conequat ipsum, nec nisi
+                    Gem quis bibendum auctor omera, nisi
+                    biendum auctor, nisi warm
+                </p>
+
+            </div>
+        </li>*@
+            </ul>
+        </div>
+    </div>
+    <div id="contacts" style="height:60px">
+
+    </div>
+</section>
+ 
+       
+    }

@@ -1,0 +1,104 @@
+/* ==========================================================================
+ Media Queries
+ ========================================================================== */
+
+/* ---------------------------------------------------------------------- */
+/*	Version 1024px
+ /* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 1024px) {
+	
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 767px
+ /* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 767px) {
+	
+	body {
+		font-size: 50%;
+	}
+	
+	.services-caps {
+		margin-bottom: 45px;
+		padding-bottom:70px;
+	}
+	.services-caps ul li  {
+		font-size:2em;
+	}
+	header {
+		padding: 37px 0 4px;
+	}
+	header .logo {
+		height: 125px;
+		margin-left: -62.5px;
+		width: 125px;
+	}
+	header .logo img {
+		height: 110px;
+		width: 110px;
+		margin: 7px auto 0;
+	}
+	.slogan h2 {
+		font-size:1.7em;
+		line-height: 25px;
+	}
+	
+	.genericSection.mainCarousel img {
+		margin: 0 auto;
+	}
+	.genericSection.mainCarousel {
+		text-align: center;
+	}
+	.genericSection.mainCarousel [class*="span"] {
+		margin: 0 auto;
+		width: 80%;
+	}
+	.mainCarousel .carousel-inner > .item .text {
+		margin-bottom: 5%;
+		margin-top: 5%;
+	}
+	.mainCarousel .carousel-control {
+		background-size: cover;
+		height: 58px;
+		width: 32px;
+	}
+	.mainCarousel .carousel-control.next {
+		width: 32px;
+	}
+	nav a {
+		margin: 0;
+	}
+	footer {
+		font-size:1.6em;
+	}
+	.copyright .left-side, .copyright .right-side {
+		float: none;
+		text-align:center;
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 600px
+ /* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 600px) {
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 568px
+ /* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 568px) {
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 480px
+ /* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 480px) {
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 320px
+ /* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 320px) {
+}
+

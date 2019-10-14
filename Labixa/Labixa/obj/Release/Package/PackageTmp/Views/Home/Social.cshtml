@@ -1,0 +1,7 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>
+@if (Model.Any() && Model != null)
+{
+        <li><a href="@Model.Where(p=>p.Name.Equals("Facebook")).FirstOrDefault().Value" target="_blank"><i class="icon-s-facebook"></i></a></li>
+        <li><a href="@Model.Where(p=>p.Name.Equals("Twitter")).FirstOrDefault().Value" target="_blank"><i class="icon-s-twitter"></i></a></li>
+        <li><a href="@Model.Where(p=>p.Name.Equals("Flickr")).FirstOrDefault().Value" target="_blank"><i class="icon-s-flickr"></i></a></li>
+}

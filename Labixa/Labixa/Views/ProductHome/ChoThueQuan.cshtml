@@ -1,0 +1,192 @@
+﻿
+@{
+    ViewBag.url = "www.humiland.com";
+    ViewBag.title = "Humiland Trang Giao Dịch Bất Động Sản Tại TP HCM";
+    ViewBag.description = "CHUYÊN MUA BÁN NHÀ PHỐ, ĐẤT NỀN TP HCM";
+    ViewBag.image = "/Content/humiland/images/logo2.png";
+    Layout = "~/Views/Shared/_HumilandLayout.cshtml";
+}
+@using PagedList.Mvc;
+@using Outsourcing.Core.Common;
+@using PagedList;
+@model IPagedList<Outsourcing.Data.Models.Product>
+<style>
+    input[type='range'] {
+        width:180px;
+    }
+    .rangeslider .right {
+        margin-right:20px;
+    }
+</style>
+<div class="page-title page-main-section">
+    <div class="container padding-bottom-top-120 text-uppercase text-center">
+        <div class="main-title">
+            <h1>Nhà đất</h1>
+            <div class="line_4"></div>
+            <div class="line_5"></div>
+            <div class="line_6"></div>
+            @*<a href="/">Trang chủ</a>
+                    <span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                <a href="@Url.Action("SanPham", "ProductHome")">Nhà Bán</a>*@
+        </div>
+    </div>
+</div>
+<!--PAGE TITLE -->
+
+<section id="agent-p-2" class="listing-1 bg_light padding_top">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="uppercase"><span class="color_red">DỰ ÁN </span>NHÀ ĐẤT</h2>
+                <div class="line_1"></div>
+                <div class="line_2"></div>
+                <div class="line_3"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+                <form class="findus">
+                    <div class="row">
+                        @foreach (var item in Model)
+                        {
+                            try
+                            {
+                                if (!item.Deleted)
+                                {
+
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="property_item heading_space row">
+                                            <div class="image col-md-3 col-sm-3 col-xs-4">
+                                                @try
+                                                {
+                                                    <img src="@item.ProductPictureMappings.FirstOrDefault().Picture.Url" alt="listin" class="img-responsive">
+                                                }
+                                                catch (Exception)
+                                                {
+
+                                                    <img src="" alt="listin" class="img-responsive">
+                                                }
+                                               
+                                                <div class="overlay">
+                                                    <div class="centered">
+                                                        <a class="link_arrow white_border" href="/san-pham/@item.Slug">
+                                                            Thông tin chi tiết
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="feature">
+                                                    <span class="tag">
+                                                        Nổi bật
+                                                    </span>
+                                                </div>
+                                                <div class="price">
+                                                    <span class="tag">
+                                                        @if (item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 24).FirstOrDefault().Value.Equals("true"))
+                                                        {
+                                                            <span>
+                                                                Cần bán
+                                                            </span>
+                                                        }
+                                                        else
+                                                        {
+                                                            <span>
+                                                                Cần cho thuê
+                                                            </span>
+                                                        }
+                                                    </span>
+                                                </div>
+                                                <div class="property_meta">
+                                                    <span>
+                                                        <i class="fa fa-object-group"></i>
+                                                        @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 3).FirstOrDefault().Value @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 3).FirstOrDefault().ProductAttribute.Name
+                                                    </span>
+                                                    <span>
+                                                        <i class="fa fa-bed"></i>
+                                                        @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 4).FirstOrDefault().Value Phòng ngủ
+                                                    </span>
+                                                    <span>
+                                                        <i class="fa fa-bath"></i>
+                                                        @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 5).FirstOrDefault().Value Phòng tắm
+                                                    </span>
+                                                    <span>
+                                                        <i class="fa fa-car"></i>
+                                                        @{
+                                                            if (item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 7).FirstOrDefault().Value.Equals(true))
+                                                            {
+                                                                <span>
+                                                                    Có
+                                                                </span>
+                                                            }
+                                                            else
+                                                            {
+                                                                <span>
+                                                                    Không
+                                                                </span>
+                                                            }
+                                                        }Nhà xe
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="proerty_content col-md-9 col-sm-9 col-xs-8">
+                                                <div class="proerty_text">
+                                                    <h6>
+                                                        <strong>
+                                                            <a href="/san-pham/@item.Slug">
+                                                                @*@slitString.TruncateAtWord(@item.Name, 20)*@
+                                                                @item.Name
+                                                            </a>
+                                                        </strong>
+                                                    </h6>
+                                                    @*<span class="bottom10">
+                                                        @item.ProductAttributeMappings.Where(p => p.ProductAttributeId == 18).FirstOrDefault().Value
+                                                    </span>*@
+                                                    <p>
+                                                        <strong>
+                                                            @item.OrginalPrice.ToString("#,##0") VND
+                                                        </strong>
+                                                    </p>
+                                                </div>
+                                                <div class="favroute clearfix">
+                                                    <p class="pull-left">
+                                                        <i class="icon-calendar2"></i>
+                                                        @item.DateCreated.ToLongDateString()
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                    }
+                                                                }
+                                                                catch (Exception)
+                                                                {
+
+                                                                    continue;
+                                                                }
+
+                                                            }
+                    </div>
+                    <ul class="pager top40 padding_bottom">
+                        @*<li><a href="#.">1</a></li>
+                            <li class="active"><a href="#.">2</a></li>
+                            <li><a href="#.">3</a></li>*@
+
+                        @Html.PagedListPager(Model, page => Url.Action("ChoThueQuan", "ProductHome", new { page, slug = (string)ViewBag.slug }))
+                    </ul>
+                </form>
+            </div>
+            <div class="col-md-4 colsm-4 col-xs-12">
+                <div class="property-query-area padding-all20">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="text-uppercase  bottom40 top10">Tìm kiếm <span class="color_red">Nâng cao</span></h3>
+                        </div>
+                    </div>
+					 @Html.Action("Search", "ProductHome")
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- LISTING -->

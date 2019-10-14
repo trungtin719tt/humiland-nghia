@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>
+@{
+    ViewBag.title = "LILOEDU - Trung Tâm Đào Tạo IoT";
+    ViewBag.keyword = "Iot arduino, board arduino, dao tao, lap trinh, arduino";
+    ViewBag.description = "LILOEDU - Đăng ký học lập trình IoT trên board Arduino.";}
+@if (Model.Any() && Model != null)
+{
+    <li class="col-sm-4">
+        <div class="lay-opt">
+            <ul class="row">
+                <li class="col-sm-3">
+                    <div class="icon"> <i class="fa fa-pagelines"></i> </div>
+                </li>
+                <li class="col-sm-9">
+                    <h4>@Model.FirstOrDefault().Value</h4>
+                    <p>
+                        @Html.Raw(Model.FirstOrDefault().Description)
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </li>
+
+                <!--======= SERVICES =========-->
+                <li class="col-sm-4">
+                    <div class="lay-opt">
+                        <ul class="row">
+                            <li class="col-sm-3">
+                                <div class="icon"> <i class="fa fa-pencil"></i> </div>
+                            </li>
+                            <li class="col-sm-9">
+                                <h4>@Model.Skip(1).Take(1).FirstOrDefault().Value</h4>
+                                <p>
+                                   @Html.Raw(Model.Skip(1).Take(1).FirstOrDefault().Description)
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!--======= SERVICES =========-->
+                <li class="col-sm-4">
+                    <div class="lay-opt">
+                        <ul class="row">
+                            <li class="col-sm-3">
+                                <div class="icon"> <i class="fa fa-bullhorn"></i> </div>
+                            </li>
+                            <li class="col-sm-9">
+                                <h4>@Model.LastOrDefault().Value</h4>
+                                <p>
+                                    @Html.Raw(Model.LastOrDefault().Description)
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+}

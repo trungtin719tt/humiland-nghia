@@ -1,0 +1,78 @@
+﻿@using PagedList.Mvc;
+@using Outsourcing.Core.Common;
+@using PagedList;
+@using Outsourcing.Core.Common
+@model IPagedList<Outsourcing.Data.Models.Vendor>
+@{
+    ViewBag.title = "LILOEDU - Trung Tâm Đào Tạo IoT";
+    ViewBag.keyword = "Iot arduino, board arduino, dao tao, lap trinh, arduino";
+    ViewBag.description = "LILOEDU - Đăng ký học lập trình IoT trên board Arduino.";}
+<div class="dark-wrapper blog-content">
+    <div class="container inner2">
+        <h2 style="text-align:center">KHOÁ HỌC</h2>
+        <div class="col-md-12">
+            <div class="blog">
+                @foreach (var item in Model)
+                {
+                    <div class="item post col-md-4">
+                        <figure class="main"><img src="@item.Address" alt="" /></figure>
+                        <div class="box text-center">
+                            <div class="category cat12"><span><a href="/khoa-hoc/@StringConvert.ConvertShortName(item.Name)-@item.Id">Chi tiết</a></span></div>
+                            <h4 class="post-title"><a href="/khoa-hoc/@StringConvert.ConvertShortName(item.Name)-@item.Id">@slitString.TruncateAtWord(item.Name, 35)</a></h4>
+
+                            <p>@slitString.TruncateAtWord(item.Description, 79)</p>
+                        </div>
+                        <!-- /.box -->
+
+                    </div>
+                }
+
+
+               
+                <!-- /.post -->
+            </div>
+
+            <!--/.carousel -->
+        </div>
+
+        <!-- /.blog -->
+        <div class="row pagination">
+            @Html.PagedListPager(Model, page => Url.Action("Vendor", "BlogHome", new { page }))
+        </div>
+    </div>
+   
+    <!--/.container -->
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#menu-homes').click(function () {
+            $.scrollTo($('#homes'), 1000);
+        });
+        $('#menu-about').click(function () {
+            $.scrollTo($('#about'), 1000);
+        });
+        $('#menu-courses').click(function () {
+            $.scrollTo($('#courses'), 1000);
+        });
+        $('#menu-news').click(function () {
+            $.scrollTo($('#news'), 1000);
+
+
+        });
+        $('#menu-work').click(function () {
+            $.scrollTo($('#work'), 1000);
+        });
+        $('#menu-contacts').click(function () {
+            $.scrollTo($('#contacts'), 1000);
+        });
+
+        var listspan4 = $(".span4");
+        var maxh = 0;
+        for(var i = 0; i < listspan4.length; i++){
+            maxh = listspan4[i].height();
+        }
+        //alert(maxh);
+    });
+
+</script>

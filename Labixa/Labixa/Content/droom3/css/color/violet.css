@@ -1,0 +1,80 @@
+﻿@charset "utf-8";
+
+/* ============================== */
+/*
+- Title: STM Responsive Retina One Page Creative HTML Bootstrap Portfolio
+- Autor: Coralix Themes 
+- Color: Violet
+*/
+/* ============================== */
+
+
+nav a:hover {
+	color: #6e43f5;
+}
+.slogan h2 a {
+	color: #6e43f5;
+}
+.portfolio .jspDrag {
+	background: #6e43f5;
+}
+.tooltipDrag {
+	background: url("../../img/icons/dragg-violet.png") no-repeat scroll center center transparent;
+}
+.view-back a.zoom {
+	background-color: #6e43f5;
+}
+.services-caps:hover {
+	background: #ff7200;
+
+}
+.services-caps:hover .services-icon {
+	background-color: #ff7200;
+}
+.ch-img-1 {
+	background-image: url("../../img/icons/team-dri-violet.png");
+}
+.ch-img-2 {
+	background-image: url("../../img/icons/team-skype-violet.png");
+}
+.ch-img-3 {
+	background-image: url("../../img/icons/team-twitter-violet.png");
+}
+.contact .btn.btn-large {
+	background: #6e43f5;
+}
+.footer-sup {
+	background: none repeat scroll 0 0 #6e43f5;
+}
+.copyright a {
+	color: #6e43f5;
+}
+#flickr li a:hover {
+	border: 2px solid #6e43f5;
+}
+#toTop {
+	background-color: #6e43f5;
+}
+.footer-socials a {
+	background-image: url("../../img/icons/social-violet.png");
+}
+.pricing-table a.btn-box:hover {
+    color: #FFFFFF;
+    background: #6e43f5;
+}
+.pricing-table .active a.btn-box {
+    color: #FFFFFF;
+    background: #6e43f5;
+}
+.pricing-table .active .nav-header{
+    color: #FFFFFF;
+    background: #6e43f5;
+}
+
+
+
+
+
+
+
+

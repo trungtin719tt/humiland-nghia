@@ -1,0 +1,11 @@
+﻿@model string
+
+@if (Model.Equals("Defaut"))
+{
+    @Html.TextBox("", new { @class = "keyword-input", @type = "number" })
+
+}
+else
+{
+    @Html.TextBox("", @Model, new { @class = "keyword-input", @type = "number" })
+}

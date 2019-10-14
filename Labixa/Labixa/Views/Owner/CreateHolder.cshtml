@@ -1,0 +1,114 @@
+﻿
+@{
+    ViewBag.Title = "Đăng bất động sản";
+    Layout = "~/Views/Shared/_HumilandLayout.cshtml";
+    var item = (string)ViewBag.place;
+}
+@model Outsourcing.Data.Models.Color
+<!-- PAGE TITLE -->
+<div class="page-title page-main-section">
+    <div class="container padding-bottom-top-120 text-uppercase text-center">
+        <div class="main-title">
+            <h1>Chi tiết Chủ Sở Hữu</h1>
+            @*<h5>10 Years Of Experience!</h5>*@
+            <div class="line_4"></div>
+            <div class="line_5"></div>
+            <div class="line_6"></div>
+            <a href="/">Trang Chủ</a> <span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Chủ Sở Hữu</a>
+        </div>
+    </div>
+</div>
+<!--PAGE TITLE -->
+<!-- PROPERTY DETAILS -->
+<section class="property-details padding">
+    <div class="container">
+        @*@Html.Partial("_navigateProfile", 3)*@
+        <div class="row">
+
+            <div class="col-md-1 col-sm-1 col-xs-12"></div>
+
+            <div class="col-md-10 col-sm-10 col-xs-12">
+
+                <div class="property-query-area">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="text-uppercase  bottom40"> <span class="color_red">Tạo mới Chủ Sở Hữu</span></h3>
+                        </div>
+                    </div>
+
+                    <form class="findus" method="post" id="submitProperty" action="/Owner/CreateHolder">
+                        <div class="row">
+                            <div class="form-group ">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <span>Tên Chủ sở Hữu :</span>
+                                    </div>
+                                    <div class="single-query col-md-10 col-sm-10 col-xs-12">
+                                        @Html.EditorFor(model=>model.Name)
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <span>Số Điện thoại 1 :</span>
+                                    </div>
+                                    <div class="single-query col-md-10 col-sm-10 col-xs-12">
+                                        @Html.EditorFor(model => model.Phone_1)
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <span>Số Điện thoại 2 :</span>
+                                    </div>
+                                    <div class="single-query col-md-10 col-sm-10 col-xs-12">
+                                        @Html.EditorFor(model => model.Phone_2)
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <span>Số Điện thoại 3 :</span>
+                                    </div>
+                                    <div class="single-query col-md-10 col-sm-10 col-xs-12">
+                                        @Html.EditorFor(model => model.Phone_3)
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <span>Email :</span>
+                                    </div>
+                                    <div class="single-query col-md-10 col-sm-10 col-xs-12">
+                                        @Html.EditorFor(model => model.Email)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="margin-10">
+                            <button type="submit" name="Tạo Mới" value="Tạo Mới" class="btn btn-default design-button ">Tạo Mới</button>
+                        </div>
+                    </form>
+
+
+                  
+
+                </div>
+
+
+
+            </div>
+
+            <div class="col-md-1 col-sm-1 col-xs-12"></div>
+
+        </div>
+
+    </div>
+</section>
+<!-- PROPERTY DETAILS -->
+<!-- CONTACT -->
+<section id="contact" class="bg-color-red">
+    <div class="container">
+        <div class="row">
+            @Html.Action("Info2", "Home")
+        </div>
+    </div>
+</section>
+<!--CONTACT -->

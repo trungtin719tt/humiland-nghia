@@ -1,0 +1,43 @@
+﻿@model Outsourcing.Data.Models.WebsiteAttribute
+@{
+    ViewBag.title = "LILOEDU - Trung Tâm Đào Tạo IoT";
+    ViewBag.keyword = "Iot arduino, board arduino, dao tao, lap trinh, arduino";
+    ViewBag.description = "LILOEDU - Đăng ký học lập trình IoT trên board Arduino.";
+    }
+@if (Model != null)
+{
+    <div class="dark-wrapper">
+        <div class="container inner2">
+            <div class="blog no-sidebar">
+                <div class="blog-content">
+                    <div class="blog-posts classic-view">
+                        <div class="post">
+                            <div class="box text-center">
+                                <h1 class="post-title">Về Chúng Tôi</h1>
+                                <div class="meta">
+                                </div>
+                                <figure class="main"><img src="@Model.Description" alt=""></figure>
+                                <div class="post-content text-left">
+                                    <div class="divide10"></div>
+                                    @Html.Raw(Model.Value)
+                                    <!-- .post-footer -->
+                                </div>
+                                <!-- /.box -->
+
+                            </div>
+                            <!-- .post -->
+
+
+                        </div>
+                        <!-- /.classic-view -->
+
+                    </div>
+                    <!-- /.blog-content -->
+
+                </div>
+                <!-- /.blog -->
+            </div>
+            <!--/.container -->
+        </div>
+    </div>
+}

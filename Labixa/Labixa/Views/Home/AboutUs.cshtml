@@ -1,0 +1,94 @@
+﻿@{
+    ViewBag.Title = "Về chúng tôi";
+    Layout = "~/Views/Shared/_HumilandLayout.cshtml";
+}
+
+@model IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>
+
+<!--===== PAGE TITLE =====-->
+<div class="page-title page-main-section">
+    <div class="container padding-bottom-top-120 text-uppercase text-center">
+        <div class="main-title">
+            <h1>Về chúng tôi</h1>
+            <div class="line_4"></div>
+            <div class="line_5"></div>
+            <div class="line_6"></div>
+            <a href="/">Trang chủ</a><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="/chung-toi">Về chúng tôi</a>
+        </div>
+    </div>
+</div>
+<!--===== #/PAGE TITLE =====-->
+<!--===== ABOUT US =====-->
+<section id="about_us" class="about-us padding">
+    <div class="container">
+        <div class="row">
+            <div class="history-section">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <h2 class="text-uppercase">Tổng quan<span class="color_red"> Công ty </span></h2>
+                    <div class="line_1"></div>
+                    <div class="line_2"></div>
+                    <div class="line_3"></div>
+                    <p class="top20 bottom40">Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally.Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally.Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally.or desires to obtain Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain desires to obtain pain of itself.</p>
+                    @*<a class="link_arrow dark_border top40" href="about.html">Chi tiết</a>*@
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div id="about_single" class="owl-carousel">
+                        <div class="item">
+                            <div class="content-right-md">
+                                <figure class="effect-layla">
+                                    <img src="~/Content/humiland/images/about-2.jpg" alt="img" />
+                                    <figcaption> </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="content-right-md">
+                                <figure class="effect-layla">
+                                    <img src="~/Content/humiland/images/about-1.jpg" alt="img" />
+                                    <figcaption> </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="content-right-md">
+                                <figure class="effect-layla">
+                                    <img src="~/Content/humiland/images/about-2.jpg" alt="img" />
+                                    <figcaption> </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--===== #/ABOUT US =====-->
+
+<!--===== TEAM  =====-->
+@*<section class=" padding_bottom" id="teams">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-uppercase"><span class="color_red">Đội ngũ Chuyên gia</span></h2>
+                <div class="line_1"></div>
+                <div class="line_2"></div>
+                <div class="line_3"></div>
+            </div>
+        </div>
+        <div class="row">
+            @Html.Action("HomeStaff", "Home")
+        </div>
+    </div>
+</section>*@
+<!--===== #/TEAM  =====-->
+<!--===== OUR PARTNER =====-->
+<div id="our-partner">
+    <div class="container-fluid">
+        <div id="partner_slider" class="owl-carousel">
+            @Html.Action("HomePartner","Home")
+           
+        </div>
+    </div>
+</div>
+<!--===== #/OUR PARTNER =====--> 

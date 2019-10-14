@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>
+
+<div class="col-md-4 col-sm-4 col-xs-12 text-center">
+    <div class="get-tuch">
+        <i class="icon-telephone114"></i>
+        <ul>
+            <li><h4>@Model.Where(p => p.Name.Equals("Số Điện Thoại")).FirstOrDefault().Name</h4></li>
+            <li><p> @Model.Where(p => p.Name.Equals("Số Điện Thoại")).FirstOrDefault().Value </p></li>
+        </ul>
+    </div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12 text-center">
+    <div class="get-tuch">
+        <i class="icon-icons74"></i>
+        <ul>
+            <li>
+                <h4>@Model.Where(p => p.Name.Equals("HUMILAND")).FirstOrDefault().Name</h4>
+            </li>
+            <li><p>@Model.Where(p => p.Name.Equals("Address")).FirstOrDefault().Value</p></li>
+        </ul>
+    </div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12 text-center">
+    <div class="get-tuch">
+        <i class="icon-icons142"></i>
+        <ul>
+            <li><h4 class="p-font-17">@Model.Where(p => p.Name.Equals("Địa chỉ Email")).FirstOrDefault().Name</h4></li>
+            <li><a href="#."><p>@Model.Where(p => p.Name.Equals("Địa chỉ Email")).FirstOrDefault().Value</p></a></li>
+        </ul>
+    </div>
+</div>

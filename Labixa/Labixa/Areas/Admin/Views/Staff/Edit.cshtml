@@ -1,0 +1,153 @@
+﻿@using Outsourcing.Core
+@model Outsourcing.Data.Models.User
+@{
+    ViewBag.Title = "Chỉnh sửa tài khoản";
+
+}
+
+@section scripts{
+    <script src="~/Content/ckeditor/ckeditor.js"></script>
+    <script src="~/Content/ckeditor/config.js"></script>
+}
+@section breadcrumb
+{
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+            try { ace.settings.check('breadcrumbs', 'fixed') } catch (e) { }
+        </script>
+
+        <ul class="breadcrumb">
+            <li>
+                <i class="icon-home home-icon"></i>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <i class="icon-edit"></i>
+                <a href="/Admin/Staff">Quản lý Nhân Viên</a>
+            </li>
+            <li class="active">Chỉnh sửa Nhân Viên</li>
+        </ul>
+    </div>
+}
+<div class="page-content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="alert alert-block alert-info">
+                Chỉnh sửa nội dung
+            </div>
+            @if (Model != null)
+            {
+                using (Html.BeginForm("Edit", "Staff", null, FormMethod.Post, new { @class = "form-horizontal" }))
+                {
+                    @Html.ValidationSummary(true)
+                    @Html.HiddenFor(model => model.Id)
+
+                    <div class="tabbable">
+                        <div class="tab-content">
+                            <div id="tab1" class="tab-pane fade active in">
+                                @if (User.IsInRole("SuperAdmin"))
+                                {
+                                    if (Model.RoleId == Outsourcing.Data.Models.SystemRoles.Guest)
+                                    {
+                                        <input type="checkbox" name="roles" value="true"> @:Cấp Quyền Admin
+                                }
+                                    else
+                                    {
+                                        <input type="checkbox" name="roles" checked="checked" value="true"> @:Cấp Quyền Admin
+                                }
+                                }
+                            </div>
+                            <div class="form-group ">
+                                <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId">Tên</label>
+
+                                <div class="col-sm-9">
+                                    @Html.DisplayFor(model => model.FirstName)
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId">Tài khoản đăng nhập</label>
+
+                                <div class="col-sm-9">
+                                    @Html.DisplayFor(model => model.UserName)
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId">Số Điện Thoại</label>
+
+                                <div class="col-sm-9">
+                                    @Html.DisplayFor(model => model.PhoneNumber)
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId">Hình Ảnh</label>
+
+                                <div class="col-sm-9">
+                                    <img src="@Model.Image" width="300" height="auto" />
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId">Email</label>
+
+                                <div class="col-sm-9">
+                                    @Html.DisplayFor(model => model.Email)
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId">Địa Chỉ</label>
+
+                                <div class="col-sm-9">
+                                    @Html.DisplayFor(model => model.Address)
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId">Skype</label>
+
+                                <div class="col-sm-9">
+                                    @Html.DisplayFor(model => model.Skype)
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class="col-sm-3 control-label no-padding-right" for="BlogCategoryId">Activated</label>
+
+                                <div class="col-sm-9">
+                                    @if (!Model.Activated)
+                                    {
+                                        <input type="checkbox" name="Activated" value="true">
+                                    }
+                                    else
+                                    {
+                                        <input type="checkbox" name="Activated" checked="checked" value="true">
+                                    }
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="clearfix form-actions">
+                        <div class="col-md-offset-3 col-md-9">
+                            <button class="btn btn-info" type="submit">
+                                <i class="icon-ok bigger-110"></i>
+                                Lưu
+                            </button>
+
+                            &nbsp; &nbsp; &nbsp;
+                            <button class="btn" type="reset">
+                                <i class="icon-undo bigger-110"></i>
+                                Làm lại
+                            </button>
+                            &nbsp; &nbsp; &nbsp;
+
+                            <a href="/Admin/Staff" class="btn btn-success">Quay về</a>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <h1>Không tìm thấy tin tức!</h1>
+            }
+        </div>
+    </div>
+</div>
